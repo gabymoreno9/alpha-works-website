@@ -1,3 +1,23 @@
 .row{
     margin-bottom: 40px;
 }
+
+/* ivan css */
+.card-body1{
+    background-color: rgba(20, 27, 27, 0.288);
+}
+.card-title1{
+    text-align: center;   
+}
+.card-body1:hover{
+    background-color:rgba(0, 0, 0, 0.952);
+    color: rgb(247, 240, 240);
+}
+a{
+    width: 100%;
+}
+
+#bold{
+    border: 15px solid #000000;
+    border-style: groove;
+}
