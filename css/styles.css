@@ -21,9 +21,11 @@ a{
 #bold{
     border: 15px solid #000000;
     border-style: groove;
+}
 
 .card-text-moon{
     color: #a6a6a6;
+}
 
 .card-me:hover {
     border-color: rgb(13, 110, 253);
