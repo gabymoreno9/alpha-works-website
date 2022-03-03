@@ -1,7 +1,38 @@
-.row{
-    margin-bottom: 40px;
+.row {
+  margin-bottom: 40px;
 }
 
+/* Isabella CSS */
+.izzy-btn {
+  background: linear-gradient(to right, #355c7d 0%, #fceeb5 50%, #c06c84 100%);
+  background-size: 500%;
+  border: none;
+  box-shadow: 0 0.5rem 1rem #dee1e4;
+  color: white;
+  cursor: pointer;
+  outline: none;
+}
+
+.izzy-btn:hover {
+  animation: izzy-gradient;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  color: white;
+}
+
+.izzy-btn:active {
+  background: #c06c84;
+}
+
+@keyframes izzy-gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 100%;
+  }
+}
 
 /* ivan css */
 .card-body1{
