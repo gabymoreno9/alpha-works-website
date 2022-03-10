@@ -2,6 +2,7 @@
     margin-bottom: 40px;
 }
 
+
 /* ivan css */
 .ivan{
     background-image: linear-gradient(rgb(11, 204, 21),rgb(255, 255, 255),rgb(255, 0, 0));
@@ -17,7 +18,29 @@
     
 }
 
+<<<<<<< HEAD
 .ivanbio:hover{
     -webkit-transform: rotate(360deg);
     transition: 1.5s;
 }
+=======
+#bold{
+    border: 15px solid #000000;
+    border-style: groove;
+
+.card-text-moon{
+    color: #a6a6a6;
+
+.card-me:hover {
+    border-color: rgb(13, 110, 253);
+    box-shadow: 0px 0px 17px 5px rgb(13, 110, 253);
+    box-shadow: linear-gradient(45deg, #ff006e, #6d00ff);
+    position: relative;
+    animation: rotate 4s infinite ease-in-out;
+  }
+
+.card-self{
+    background-color: rgb(156, 204, 231);
+
+}
+>>>>>>> 7b3a01ff5717dfb42f902c63b115ac9719caf825
