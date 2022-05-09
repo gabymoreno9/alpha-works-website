@@ -35,20 +35,24 @@
 }
 
 /* ivan css */
-.card-body1{
-    background-color: rgba(20, 27, 27, 0.288);
-}
-.card-title1{
-    text-align: center;   
-}
-.card-body1:hover{
-    background-color:rgba(0, 0, 0, 0.952);
-    color: rgb(247, 240, 240);
-}
-a{
-    width: 100%;
+.ivan{
+    background-image: linear-gradient(rgb(11, 204, 21),rgb(255, 255, 255),rgb(255, 0, 0));
 }
 
+.ivanbio{
+    font-weight: 600;
+    letter-spacing:2.5px;
+}
+
+.ivantext{
+    font-size: larger;
+    
+}
+
+.ivanbio:hover{
+    -webkit-transform: rotate(360deg);
+    transition: 1.5s;
+}
 #bold{
     border: 15px solid #000000;
     border-style: groove;
@@ -161,5 +165,6 @@ color: springgreen;
   color: rgb(255, 255, 255);
 }
 /* End of Kendall's CSS */
+
 
 
