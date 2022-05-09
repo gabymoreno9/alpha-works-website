@@ -70,3 +70,21 @@ a{
     background-color: rgb(156, 204, 231);
 
 }
+/* Kendall's CSS */
+.card-titlek{
+  color: springgreen;
+}
+.card-textk{
+color: springgreen;
+}
+.kenny-btn{
+  color: springgreen;
+  border: white;
+}
+.kenny-btn:hover{
+  border-color: white;
+  color: rgb(255, 255, 255);
+}
+/* End of Kendall's CSS */
+
+
