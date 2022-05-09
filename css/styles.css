@@ -1,7 +1,38 @@
-.row{
-    margin-bottom: 40px;
+.row {
+  margin-bottom: 40px;
 }
 
+/* Isabella CSS */
+.izzy-btn {
+  background: linear-gradient(to right, #355c7d 0%, #fceeb5 50%, #c06c84 100%);
+  background-size: 500%;
+  border: none;
+  box-shadow: 0 0.5rem 1rem #dee1e4;
+  color: white;
+  cursor: pointer;
+  outline: none;
+}
+
+.izzy-btn:hover {
+  animation: izzy-gradient;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  color: white;
+}
+
+.izzy-btn:active {
+  background: #c06c84;
+}
+
+@keyframes izzy-gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 100%;
+  }
+}
 
 /* ivan css */
 .ivan{
@@ -18,29 +49,122 @@
     
 }
 
-<<<<<<< HEAD
 .ivanbio:hover{
     -webkit-transform: rotate(360deg);
     transition: 1.5s;
 }
-=======
 #bold{
     border: 15px solid #000000;
     border-style: groove;
+}
 
 .card-text-moon{
     color: #a6a6a6;
+}
 
+
+/* Jacky CSS */
 .card-me:hover {
-    border-color: rgb(13, 110, 253);
-    box-shadow: 0px 0px 17px 5px rgb(13, 110, 253);
-    box-shadow: linear-gradient(45deg, #ff006e, #6d00ff);
+    border-color: rgb(195, 204, 231);
+    box-shadow: 0px 0px 7px 4px rgba(91, 100, 107, 0.527);
     position: relative;
     animation: rotate 4s infinite ease-in-out;
   }
 
-.card-self{
-    background-color: rgb(156, 204, 231);
 
+.card-self{
+  background-color: rgb(255, 194, 250);
 }
->>>>>>> 7b3a01ff5717dfb42f902c63b115ac9719caf825
+
+.btn-jacky{
+ 
+  text-decoration: none;
+  text-decoration-color: white ;
+}
+
+.glow-on-hover {
+  
+  border: none;
+  outline: none;
+  color: rgb(0, 0, 0);
+  /* background: rgb(214, 18, 18); */
+  cursor: pointer;
+  position: relative;
+  z-index: 0;
+  
+}
+
+.glow-on-hover:before {
+  content: '';
+  background: linear-gradient(45deg, #ff0000, #ff7300, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+  position: absolute;
+  top: -2px;
+  left:-2px;
+  background-size: 400%;
+  z-index: -1;
+  filter: blur(5px);
+  width: calc(100% + 4px);
+  height: calc(100% + 4px);
+  animation: glowing 20s linear infinite;
+  opacity: 0;
+  transition: opacity .3s ease-in-out;
+  border-radius: 10px;
+  text-decoration: none;
+  text-decoration-color: white ;
+}
+
+.glow-on-hover:active {
+  text-decoration: none;
+  text-decoration-color: white ;
+}
+
+.glow-on-hover:active:after {
+ background: transparent;
+  color: white;
+  
+}
+
+.glow-on-hover:hover:before {
+  opacity: 1;
+  
+}
+
+.glow-on-hover:after {
+  z-index: -1;
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(43, 43, 43, 0.87);
+  left: 0;
+  top: 0;
+  border-radius: 5px;
+  
+}
+
+@keyframes glowing {
+  0% { background-position: 0 0; }
+  50% { background-position: 400% 0; }
+  100% { background-position: 0 0; }
+}
+/* Jacky CSS END */
+
+/* Kendall's CSS */
+.card-titlek{
+  color: springgreen;
+}
+.card-textk{
+color: springgreen;
+}
+.kenny-btn{
+  color: springgreen;
+  border: white;
+}
+.kenny-btn:hover{
+  border-color: white;
+  color: rgb(255, 255, 255);
+}
+/* End of Kendall's CSS */
+
+
+
