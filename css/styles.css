@@ -228,7 +228,6 @@ opacity: 0.99;
 .btn.btn.chris-breezy:hover::before {
     top: 0;
 }
-<<<<<<< HEAD
 /* Yadi's CSS */
 .container-yadi .btn-light{
   background: radial-gradient(rgb(188, 194, 204), rgb(102, 110, 221));
@@ -256,7 +255,6 @@ opacity: 0.99;
   background: rgb(240, 240, 251);
   box-shadow: 10px 40px 45px 10px rgba(0, 0, 0, 0.2);
 }
-=======
 
 /* Eddie's CSS Start */
 
@@ -276,5 +274,4 @@ opacity: 0.99;
 }
 
 /* Eddie's CSS End */
->>>>>>> main
 
