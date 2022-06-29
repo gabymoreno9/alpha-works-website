@@ -151,14 +151,16 @@
 
 /* Kendall's CSS */
 .card-titlek{
-  color: springgreen;
+  color: rgb(255, 0, 0);
 }
 .card-textk{
-color: springgreen;
+color: rgb(255, 0, 0);
 }
 .kenny-btn{
-  color: springgreen;
-  border: white;
+  color: rgb(255, 0, 0);
+  border: 2px rgb(255, 255, 255);
+  border-style: solid;
+  border-radius: 15px;
 }
 .kenny-btn:hover{
   border-color: white;
