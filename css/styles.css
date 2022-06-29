@@ -228,6 +228,7 @@ opacity: 0.99;
 .btn.btn.chris-breezy:hover::before {
     top: 0;
 }
+<<<<<<< HEAD
 /* Yadi's CSS */
 .container-yadi .btn-light{
   background: radial-gradient(rgb(188, 194, 204), rgb(102, 110, 221));
@@ -255,4 +256,25 @@ opacity: 0.99;
   background: rgb(240, 240, 251);
   box-shadow: 10px 40px 45px 10px rgba(0, 0, 0, 0.2);
 }
+=======
+
+/* Eddie's CSS Start */
+
+.em-card{
+  background-color: #4801FF;
+  color: white;
+  box-shadow: black 0px 0px 30px;
+}
+.em-img{
+  box-shadow: #000000 0px 0px 30px;
+}
+.em-btn{
+  border: 4px solid black;
+  color: white;
+  border-radius: 50px;
+  background-color: slategray;
+}
+
+/* Eddie's CSS End */
+>>>>>>> main
 
