@@ -38,7 +38,6 @@
 .ivan{
     background-image: linear-gradient(rgb(11, 204, 21),rgb(255, 255, 255),rgb(255, 0, 0));
 }
-
 .ivanbio{
     font-weight: 600;
     letter-spacing:2.5px;
@@ -49,13 +48,11 @@
     
 }
 
-.ivanbio:hover{
-    -webkit-transform: rotate(360deg);
-    transition: 1.5s;
-}
 #bold{
-    border: 15px solid #000000;
+    /* border: 2px solid rgb(11, 204, 21); */
+    border: 2px solid black;
     border-style: groove;
+    box-shadow: -1px 1px 20px rgba(255, 0, 0);
 }
 
 .card-text-moon{
@@ -151,14 +148,16 @@
 
 /* Kendall's CSS */
 .card-titlek{
-  color: springgreen;
+  color: rgb(255, 0, 0);
 }
 .card-textk{
-color: springgreen;
+color: rgb(255, 0, 0);
 }
 .kenny-btn{
-  color: springgreen;
-  border: white;
+  color: rgb(255, 0, 0);
+  border: 2px rgb(255, 255, 255);
+  border-style: solid;
+  border-radius: 15px;
 }
 .kenny-btn:hover{
   border-color: white;
@@ -167,6 +166,9 @@ color: springgreen;
 /* End of Kendall's CSS */
 
 /*ChrisBreezy CSS */
+.bg-color{
+  background-color: #000000;
+}
 .glow::before , .glow::after{
 content: '';
 position: absolute;
@@ -261,16 +263,26 @@ opacity: 0.99;
 .em-card{
   background-color: #4801FF;
   color: white;
-  box-shadow: black 0px 0px 30px;
+  box-shadow: black 0px 0px 40px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
 }
+
 .em-img{
-  box-shadow: #000000 0px 0px 30px;
+  box-shadow: #000000 0px 0px 40px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
 }
+
 .em-btn{
   border: 4px solid black;
   color: white;
   border-radius: 50px;
   background-color: slategray;
+}
+
+.em-body{
+  background-color: #4801FF;
 }
 
 /* Eddie's CSS End */
