@@ -228,6 +228,27 @@ opacity: 0.99;
 .btn.btn.chris-breezy:hover::before {
     top: 0;
 }
+<<<<<<< HEAD
 /*End of ChrisBreezy CSS */
+=======
 
+/* Eddie's CSS Start */
+>>>>>>> 3b8a72ca9b599b15bf80cf2fc1099ae100e20ac7
+
+.em-card{
+  background-color: #4801FF;
+  color: white;
+  box-shadow: black 0px 0px 30px;
+}
+.em-img{
+  box-shadow: #000000 0px 0px 30px;
+}
+.em-btn{
+  border: 4px solid black;
+  color: white;
+  border-radius: 50px;
+  background-color: slategray;
+}
+
+/* Eddie's CSS End */
 
