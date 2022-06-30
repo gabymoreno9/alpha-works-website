@@ -167,6 +167,9 @@ color: springgreen;
 /* End of Kendall's CSS */
 
 /*ChrisBreezy CSS */
+.bg-color{
+  background-color: #000000;
+}
 .glow::before , .glow::after{
 content: '';
 position: absolute;
