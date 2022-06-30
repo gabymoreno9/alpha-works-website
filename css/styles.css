@@ -38,7 +38,6 @@
 .ivan{
     background-image: linear-gradient(rgb(11, 204, 21),rgb(255, 255, 255),rgb(255, 0, 0));
 }
-
 .ivanbio{
     font-weight: 600;
     letter-spacing:2.5px;
@@ -49,13 +48,11 @@
     
 }
 
-.ivanbio:hover{
-    -webkit-transform: rotate(360deg);
-    transition: 1.5s;
-}
 #bold{
-    border: 15px solid #000000;
+    /* border: 2px solid rgb(11, 204, 21); */
+    border: 2px solid black;
     border-style: groove;
+    box-shadow: -1px 1px 20px rgba(255, 0, 0);
 }
 
 .card-text-moon{
