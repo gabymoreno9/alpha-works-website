@@ -167,6 +167,9 @@ color: springgreen;
 /* End of Kendall's CSS */
 
 /*ChrisBreezy CSS */
+.bg-color{
+  background-color: #000000;
+}
 .glow::before , .glow::after{
 content: '';
 position: absolute;
@@ -228,8 +231,12 @@ opacity: 0.99;
 .btn.btn.chris-breezy:hover::before {
     top: 0;
 }
+<<<<<<< HEAD
+/*End of ChrisBreezy CSS */
+=======
 
 /* Eddie's CSS Start */
+>>>>>>> 3b8a72ca9b599b15bf80cf2fc1099ae100e20ac7
 
 .em-card{
   background-color: #4801FF;
