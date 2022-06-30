@@ -1,3 +1,33 @@
 body{
-    background-color:rgb(240, 240, 251); 
+    background-color: #999191;
 }
+
+/* navbar */
+.sidenav {
+    height: 20rem;
+    width: 9rem;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    color: #f1f1f1;
+    background-color: #111;
+    overflow-x: hidden;
+    border-radius: 10px  30px;
+    margin-top: 4px;
+  }
+  .sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #b9bdc4;
+    display: block;
+  }
+  .sidenav img{
+    margin-top: 10px;
+    height: 5rem;
+    width: 5rem;
+  }
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }

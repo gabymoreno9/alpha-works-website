@@ -230,7 +230,9 @@ opacity: 0.99;
 .btn.btn.chris-breezy:hover::before {
     top: 0;
 }
+
 /* Yadi's CSS */
+/* card */
 .container-yadi .btn-light{
   background: radial-gradient(rgb(188, 194, 204), rgb(102, 110, 221));
   }
@@ -244,19 +246,17 @@ opacity: 0.99;
   }
   .container-yadi .pic-backround{
     width: 18rem; 
-    
-    
   }
   .container-yadi .btn:hover{
     background: radial-gradient( rgb(102, 110, 221),rgb(188, 194, 204));
     color: white;
   }
-  
-.yadi-border{
+  .yadi-border{
   border-radius: 5%; 
   background: rgb(240, 240, 251);
   box-shadow: 10px 40px 45px 10px rgba(0, 0, 0, 0.2);
 }
+/* Yadi's CSS Ends */
 
 /* Eddie's CSS Start */
 
