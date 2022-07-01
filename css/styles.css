@@ -60,31 +60,6 @@
 }
 
 
-<<<<<<< HEAD
-/* Jacky BEGIN */
-
-.card-me:hover {
-  border-color: rgba(146, 152, 160, 0.801);
-  box-shadow: 0px 0px 7px 4px rgba(46, 58, 73, 0.404);
-  position: relative;
-  animation: rotate 4s infinite ease-in-out;
-}
-
-.card-self{
-  background-color: rgba(255, 188, 235, 0.842);
-}
-
-.glow-on-hover {
-  width: 245px;
-  height: 42px;
-  border: none;
-  outline: none;
-  color: rgb(255, 255, 255);
-  cursor: pointer;
-  position: relative;
-  z-index: 0;
-  border-radius: 10px;
-=======
 /* Jacky CSS */
 .card-me:hover {
     border-color: rgb(195, 204, 231);
@@ -114,16 +89,11 @@
   position: relative;
   z-index: 0;
   
->>>>>>> 4731763efadfc8e52e5a806d77dff94ef8a9f2d5
 }
 
 .glow-on-hover:before {
   content: '';
-<<<<<<< HEAD
-  background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
-=======
   background: linear-gradient(45deg, #ff0000, #ff7300, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
->>>>>>> 4731763efadfc8e52e5a806d77dff94ef8a9f2d5
   position: absolute;
   top: -2px;
   left:-2px;
@@ -136,16 +106,6 @@
   opacity: 0;
   transition: opacity .3s ease-in-out;
   border-radius: 10px;
-<<<<<<< HEAD
-}
-
-.glow-on-hover:active {
-  color: #000
-}
-
-.glow-on-hover:active:after {
-  background: transparent;
-=======
   text-decoration: none;
   text-decoration-color: white ;
 }
@@ -159,15 +119,11 @@
  background: transparent;
   color: white;
   
->>>>>>> 4731763efadfc8e52e5a806d77dff94ef8a9f2d5
 }
 
 .glow-on-hover:hover:before {
   opacity: 1;
-<<<<<<< HEAD
-=======
   
->>>>>>> 4731763efadfc8e52e5a806d77dff94ef8a9f2d5
 }
 
 .glow-on-hover:after {
@@ -176,18 +132,11 @@
   position: absolute;
   width: 100%;
   height: 100%;
-<<<<<<< HEAD
-  background: #000000c7;
-  left: 0;
-  top: 0;
-  border-radius: 5px;
-=======
   background-color: rgba(43, 43, 43, 0.87);
   left: 0;
   top: 0;
   border-radius: 5px;
   
->>>>>>> 4731763efadfc8e52e5a806d77dff94ef8a9f2d5
 }
 
 @keyframes glowing {
@@ -195,9 +144,6 @@
   50% { background-position: 400% 0; }
   100% { background-position: 0 0; }
 }
-<<<<<<< HEAD
-/* Jacky END */
-=======
 /* Jacky CSS END */
 
 /* Kendall's CSS */
@@ -341,4 +287,3 @@ opacity: 0.99;
 
 /* Eddie's CSS End */
 
->>>>>>> 4731763efadfc8e52e5a806d77dff94ef8a9f2d5
