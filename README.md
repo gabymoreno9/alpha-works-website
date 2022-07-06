@@ -5,5 +5,10 @@ Linkedin live Links
 (Yadi) Yadeta Getachew 
 www.linkedin.com/in/yadeta-getachew
 
-#Taofeek Badmus Abiola
+
+Taofeek Badmus Abiola
 www.linkedin.com/in/taofeek-badmus
+
+Eddie Moreno
+www.linkedin.com/in/eddiemoreno007
+
