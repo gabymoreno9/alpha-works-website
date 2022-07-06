@@ -15,3 +15,7 @@ www.linkedin.com/in/eddiemoreno007
 [Kendall Fuller]
 www.linkedin.com/in/kendall-fuller-linked/
 
+Isabella Tannady
+https://www.linkedin.com/in/isabellatannady/
+
+
