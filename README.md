@@ -8,5 +8,5 @@ www.linkedin.com/in/yadeta-getachew
 Eddie Moreno
 www.linkedin.com/in/eddiemoreno007
 
-Kendall Fuller
+[Kendall Fuller]
 www.linkedin.com/in/kendall-fuller-linked/
