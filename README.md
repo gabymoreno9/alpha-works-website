@@ -3,6 +3,13 @@
 Website for the Alpha Works Apprenticeship (name pending)
 Linkedin live Links
 
+
+(Yadi) Yadeta Getachew 
+www.linkedin.com/in/yadeta-getachew
+
+Ivan Piceno
+www.linkedin.com/in/ivan-piceno-939274204
+
 (Yadi) Yadeta Getachew
 <https://www.linkedin.com/in/yadeta-getachew/>
 
@@ -23,4 +30,5 @@ Christina "Moon" Zurowski
 
 Christopher Landeros
 <https://www.linkedin.com/in/christopher-landeros-17a27b232/>
+
 
