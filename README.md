@@ -24,3 +24,8 @@ Christina "Moon" Zurowski
 Christopher Landeros
 <https://www.linkedin.com/in/christopher-landeros-17a27b232/>
 
+Jacqueline Martinez
+<https://www.linkedin.com/in/jacqueline-martinez-546208133/>
+
+
+
