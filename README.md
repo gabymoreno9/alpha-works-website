@@ -23,4 +23,3 @@ Christina "Moon" Zurowski
 
 Christopher Landeros
 <https://www.linkedin.com/in/christopher-landeros-17a27b232/>
-
