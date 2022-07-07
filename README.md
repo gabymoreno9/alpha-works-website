@@ -10,9 +10,6 @@ www.linkedin.com/in/yadeta-getachew
 Ivan Piceno
 www.linkedin.com/in/ivan-piceno-939274204
 
-(Yadi) Yadeta Getachew
-<https://www.linkedin.com/in/yadeta-getachew/>
-
 Taofeek Badmus Abiola
 <https://www.linkedin.com/in/taofeek-badmus/>
 
