@@ -30,6 +30,3 @@ Christopher Landeros
 
 Jacqueline Martinez
 <https://www.linkedin.com/in/jacqueline-martinez-546208133/>
-
-
-
