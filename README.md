@@ -20,3 +20,7 @@ Isabella Tannady
 
 Christina "Moon" Zurowski
 <https://www.linkedin.com/in/cmoonzurowski/>
+
+Christopher Landeros
+<https://www.linkedin.com/in/christopher-landeros-17a27b232/>
+
