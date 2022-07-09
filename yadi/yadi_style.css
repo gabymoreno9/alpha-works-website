@@ -18,33 +18,33 @@ body{
 }
 /* navbar */
   .navbar{
-    margin-top: -3rem;
-    margin-left: -2rem;
+    margin-top: -1rem;
+    margin-left: -1rem;
     height: 14rem;
   }
   .navbar img{
-    height: 14rem;
+    height: 13rem;
+    width: 13rem;
   }
-/* .sidenav {
-    height: 20rem;
+.sidenav {
+    height: 30rem;
     width: 9rem;
-    position: fixed;
+    position: absolute;
     z-index: 1;
     top: 0;
     left: 0;
     color: #f1f1f1;
-    background-color: rgb(0, 0, 0);
+   
     overflow-x: hidden;
     border-radius: 10px  30px;
     /* margin-top: 20rem; */
-  /* } */
-  /* .sidenav a {
+  }
+   .sidenav a {
     padding: 6px 8px 6px 16px;
     text-decoration: none;
     font-size: 25px;
-    color: #b9bdc4;
+    color: #c6ccd7;
     display: block;
-  
   }
   .sidenav img{
     margin-top: 10px;
@@ -53,14 +53,14 @@ body{
     width: 7rem;
   }
   .sidenav a:hover {
-    color: #f1f1f1;
-  } */
+    color: #fffdfd;
+  }
 .hero img{
   height:100vmin;
   width: auto;
 }
 .hero{
-  /* margin-top: -22rem; */
+  margin-top: -31rem;
   margin-left: 6rem;
 
 } 
