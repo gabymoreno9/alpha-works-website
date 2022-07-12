@@ -55,6 +55,12 @@ body{
   .sidenav a:hover {
     color: #fffdfd;
   }
+  @media only screen and (max-width: 690px) {
+    #navigation {
+        display: none;
+    }
+}
+
 .hero img{
   height:100vmin;
   width: auto;
