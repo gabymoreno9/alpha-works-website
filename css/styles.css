@@ -258,6 +258,38 @@ opacity: 0.99;
 }
 /* Yadi's CSS Ends */
 
+/* Trish's CSS Begins */
+.trish {
+  background-color: red;
+  background-image:
+    linear-gradient(
+      to right, 
+      rgba(226, 12, 208, 0.932), 
+      #2143afde, 
+      rgba(77, 8, 122, 0.904), 
+      rgba(12, 150, 104, 0.877)
+    );
+
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  color: rgba(253, 250, 250, 0.897); 
+  font-size: 17px; 
+}
+
+.trish-title {
+  font-weight: bolder;
+}
+
+.trish-btn {
+  color: rgba(7, 25, 180, 0.877); 
+  background-color: rgba(10, 243, 224, 0.932);
+}
+
+.trish-btn:hover {
+  color: rgba(10, 243, 224, 0.932);
+  background-color: rgba(7, 25, 180, 0.877)
+}
+/* Trish's CSS Ends */
+
 /* Eddie's CSS Start */
 
 .em-card{
@@ -287,3 +319,31 @@ opacity: 0.99;
 
 /* Eddie's CSS End */
 
+/*Sonic's CSS Begins*/
+.sonic {
+  background-color: red;
+  background-image:
+    linear-gradient(
+      to left, 
+      rgba(19, 172, 26, 0.829), 
+      #a11a1ad0, 
+      rgba(11, 21, 170, 0.836)
+    );
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(240, 233, 233);
+}
+
+.sonic-title {
+  font-weight: bold;
+}
+
+.btn-sonic {
+  color:#0886cfc9;
+  background-color: rgb(240, 233, 233) ;
+}
+
+.btn-sonic:hover {
+  color: rgb(240, 233, 233);
+  background-color: #0886cfc9;
+}
+/*Sonic's CSS Ends*/
