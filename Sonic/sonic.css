@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    font-family: 'Righteous', cursive;
+    background-color: rgb(7, 0, 0);
+}
+/*Navbar Starts*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: red;
+    background-image:
+      linear-gradient(
+        to left, 
+        rgba(19, 172, 26, 0.829), 
+        #a11a1ad0, 
+        rgba(11, 21, 170, 0.836)
+      );
+}
+  
+li {
+    float:right;
+}
+  
+li a {
+    display: block;
+    color: rgb(103, 227, 236);
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    padding: 15px 15px;
+    text-decoration: none;
+}
+  
+  /* Change link color on hover */
+  li a:hover {
+    color: rgba(11, 21, 170, 0.836);
+    background-color: rgb(103, 227, 236);
+}
+/*Navbar Ends*/
+
+/*Header*/
+h1 {
+    color:rgb(103, 227, 236);
+    display:flex;
+    justify-content: center;
+    font-size: 35px;
+}
+  
