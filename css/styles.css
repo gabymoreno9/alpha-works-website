@@ -276,10 +276,11 @@
   color: white;
 }
 
-.yadi-border {
+.container-yadi .card{
   border-radius: 5%;
   background: rgb(240, 240, 251);
   box-shadow: 10px 40px 45px 10px rgba(0, 0, 0, 0.2);
+  border-style: none;
 }
 
 /* Yadi's CSS Ends */
