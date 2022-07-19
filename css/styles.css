@@ -317,6 +317,7 @@
 }
 /* Trish's CSS Ends */
 
+
 /* Eddie's CSS Start */
 
 .em-card {
@@ -340,64 +341,29 @@
   background-color: slategray;
 }
 
-
-/* .em-body {
-  background-color: #4801FF;
-} */
 .em-body{
   background-color: white;
 }
 
 .em-logo img{
     height: 275px;
-    display: block;
     margin-left: auto;
     margin-right: auto;
     margin-top: 35px;
-    /* position: absolute; */
-    /* margin: 25px; */
     box-shadow: 0px 0px 7px black;
     border: solid black 3px;
     border-radius: 7px;
 }
 
-.welcome{
-    
-    
-}
-
 .underline{
-    box-sizing: border-box;
-
-    position: absolute;
-    
+    margin: 0 auto;
     width: 458px;
     height: 10px;
-    left: 540px;
-    
-
     background: #4801FF;
     border-radius: 50px;
     border: 1px solid #000000;
     transform: matrix(1, 0, 0, -1, 0, 0);
 }
-
-.em-location{
-
-}
-
-/* .em-header{
-box-sizing: border-box;
-
-position: absolute;
-width: 1728px;
-height: 2660px;
-left: 0px;
-top: 886px;
-
-background: #202226;
-border: 1px solid #000000;
-} */
 
 /* Eddie's CSS End */
 
