@@ -10,8 +10,7 @@ body{
     height: 100px;
     min-width: calc(100vw - 16px);
     margin: 8px;
-    background-color: yellow;
-    /* position: fixed; */
+    position: fixed;
 }
 
 .logo-container{
@@ -43,43 +42,49 @@ body{
 .logo-part:nth-child(3) img{
     clip-path: inset(0 70% 90% 20%);
     position: absolute;
-    top: 0px;
-    left: -20px;
+    top: calc(0px + 50vh);
+    left: calc(-20px + 50vw);
+    transition: all 5s ease;
 }
 
 .logo-part:nth-child(4) img{
     clip-path: inset(0 60% 90% 30%);
     position: absolute;
-    top: 0px;
-    left: -30px;
+    top: calc(0px + 30vh);
+    left: calc(-30px + 30vw);
+    transition: all 5s ease;
 }
 
 .logo-part:nth-child(5) img{
     clip-path: inset(0 50% 90% 40%);
     position: absolute;
-    top: 0px;
-    left: -40px;
+    top: calc(0px + 20vh);
+    left: calc(-40px + 20vw);
+    transition: all 5s ease;
 }
 
 .logo-part:nth-child(6) img{
     clip-path: inset(0 40% 90% 50%);
     position: absolute;
-    top: 0px;
-    left: -50px;
+    top: calc(0px + 10vh);
+    left: calc(-50px + 40vw);
+    transition: all 5s ease;
 }
 
 .logo-part:nth-child(7) img{
     clip-path: inset(0 30% 90% 60%);
     position: absolute;
-    top: 0px;
-    left: -60px;
+    top: calc(0px + 5vh);
+    left: calc(-60px + 60vw);
+    transition: all 5s ease;
 }
 
 .logo-part:nth-child(8) img{
     clip-path: inset(0 20% 90% 70%);
     position: absolute;
-    top: 0px;
-    left: -70px;
+    top: calc(0px + 2vh);
+    left: calc(-70px + 80vw);
+    transition: all 5s ease;
 }
 
 .logo-part:nth-child(9) img{
@@ -106,56 +111,64 @@ body{
 .logo-part:nth-child(12) img{
     clip-path: inset(10% 80% 80% 10%);
     position: absolute;
-    top: -10px;
+    top: calc(-10px + 80vh);
     left: -10px;
+    transition: all 5s ease;
 }
 
 .logo-part:nth-child(13) img{
     clip-path: inset(10% 70% 80% 20%);
     position: absolute;
-    top: -10px;
-    left: -20px;
+    top: calc(-10px + 60vh);
+    left: calc(-20px + 20vw);
+    transition: all 5s ease;
 }
 
 .logo-part:nth-child(14) img{
     clip-path: inset(10% 60% 80% 30%);
     position: absolute;
-    top: -10px;
-    left: -30px;
+    top: calc(-10px + 90vh);
+    left: calc(-30px + 90vw);
+    transition: all 5s ease;
 }
 
 .logo-part:nth-child(15) img{
     clip-path: inset(10% 50% 80% 40%);
     position: absolute;
-    top: -10px;
-    left: -40px;
+    top: calc(-10px + 50vh);
+    left: calc(-40px + 80vw);
+    transition: all 5s ease;
 }
 
 .logo-part:nth-child(16) img{
     clip-path: inset(10% 40% 80% 50%);
     position: absolute;
-    top: -10px;
-    left: -50px;
+    top: calc(-10px + 80vh);
+    left: calc(-50px + 50vw);
+    transition: all 5s ease;
 }
 
 .logo-part:nth-child(17) img{
     clip-path: inset(10% 30% 80% 60%);
     position: absolute;
-    top: -10px;
-    left: -60px;
+    top: calc(-10px + 40vh);
+    left: calc(-60px + 10vw);
+    transition: all 5s ease;
 }
 
 .logo-part:nth-child(18) img{
     clip-path: inset(10% 20% 80% 70%);
     position: absolute;
-    top: -10px;
-    left: -70px;
+    top: calc(-10px + 25vh);
+    left: calc(-70px + 80vw);
+    transition: all 5s ease;
 }
 .logo-part:nth-child(19) img{
     clip-path: inset(10% 10% 80% 80%);
     position: absolute;
-    top: -10px;
-    left: -80px;
+    top: calc(-10px + 5vh);
+    left: calc(-80px + 20vw);
+    transition: all 5s ease;
 }
 
 .logo-part:nth-child(20) img{
@@ -168,243 +181,279 @@ body{
 .logo-part:nth-child(21) img{
     clip-path:inset(20% 90% 70% 0);
     position: absolute;
-    top: -20px;
-    left: 0px;
+    top: calc(-20px + 20vh);
+    left: calc(0px + 70vw);
+    transition: all 5s ease;
 }
 
 .logo-part:nth-child(22) img{
     clip-path: inset(20% 80% 70% 10%);
     position: absolute;
-    top: -20px;
-    left: -10px;
+    top: calc(-20px + 70vh);
+    left: calc(-10px + 40vw);
+    transition: all 5s ease;
 }
 
 .logo-part:nth-child(23) img{
     clip-path: inset(20% 70% 70% 20%);
     position: absolute;
-    top: -20px;
-    left: -20px;
+    top: calc(-20px + 20vh);
+    left: calc(-20px + 55vw);
+    transition: all 5s ease;
 }
 
 .logo-part:nth-child(24) img{
     clip-path: inset(20% 60% 70% 30%);
     position: absolute;
-    top: -20px;
-    left: -30px;
+    top: calc(-20px + 68vh);
+    left: calc(-30px + 70vw);
+    transition: all 5s ease;
 }
 
 .logo-part:nth-child(25) img{
     clip-path: inset(20% 50% 70% 40%);
     position: absolute;
-    top: -20px;
-    left: -40px;
+    top: calc(-20px + 35vh);
+    left: calc(-40px + 60vw);
+    transition: all 5s ease;
 }
 
 .logo-part:nth-child(26) img{
     clip-path: inset(20% 40% 70% 50%);
     position: absolute;
-    top: -20px;
-    left: -50px;
+    top: calc(-20px + 30vh);
+    left: calc(-50px + 45vw);
+    transition: all 5s ease;
 }
 
 .logo-part:nth-child(27) img{
     clip-path: inset(20% 30% 70% 60%);
     position: absolute;
-    top: -20px;
-    left: -60px;
+    top: calc(-20px + 10vh);
+    left: calc(-60px + 10vw);
+    transition: all 5s ease;
 }
 
 .logo-part:nth-child(28) img{
     clip-path: inset(20% 20% 70% 70%);
     position: absolute;
-    top: -20px;
-    left: -70px;
+    top: calc(-20px + 20vh);
+    left: calc(-70px + 1vw);
+    transition: all 5s ease;
 }
+
 .logo-part:nth-child(29) img{
     clip-path: inset(20% 10% 70% 80%);
     position: absolute;
-    top: -20px;
-    left: -80px;
+    top: calc(-20px + 50vh);
+    left: calc(-80px + 30vw);
+    transition: all 5s ease;
 }
 
 .logo-part:nth-child(30) img{
     clip-path: inset(20% 0% 70% 90%);
     position: absolute;
-    top: -20px;
+    top: calc(-20px + 50vh);
     left: -90px;
+    transition: all 5s ease;
 }
 
 .logo-part:nth-child(31) img{
     clip-path:inset(30% 90% 60% 0);
     position: absolute;
-    top: -30px;
-    left: 0px;
+    top: calc(-30px + 90vh);
+    left: calc(0px + 10vw);
+    transition: all 5s ease;
 }
 
 .logo-part:nth-child(32) img{
     clip-path: inset(30% 80% 60% 10%);
     position: absolute;
-    top: -30px;
-    left: -10px;
+    top: calc(-30px + 80vh);
+    left: calc(-10px + 20vw);
+    transition: all 5s ease;
 }
 
 .logo-part:nth-child(33) img{
     clip-path: inset(30% 70% 60% 20%);
     position: absolute;
-    top: -30px;
-    left: -20px;
+    top: calc(-30px + 70vh);
+    left: calc(-20px + 10vw);
+    transition: all 5s ease;
 }
 
 .logo-part:nth-child(34) img{
     clip-path: inset(30% 60% 60% 30%);
     position: absolute;
-    top: -30px;
-    left: -30px;
+    top: calc(-30px + 60vh);
+    left: calc(-30px + 60vw);
+    transition: all 5s ease;
 }
 
 .logo-part:nth-child(35) img{
     clip-path: inset(30% 50% 60% 40%);
     position: absolute;
-    top: -30px;
-    left: -40px;
+    top: calc(-30px + 85vh);
+    left: calc(-40px + 30vw);
+    transition: all 5s ease;
 }
 
 .logo-part:nth-child(36) img{
     clip-path: inset(30% 40% 60% 50%);
     position: absolute;
-    top: -30px;
-    left: -50px;
+    top: calc(-30px + 87vh);
+    left: calc(-50px + 75vw);
+    transition: all 5s ease;
 }
 
 .logo-part:nth-child(37) img{
     clip-path: inset(30% 30% 60% 60%);
     position: absolute;
-    top: -30px;
-    left: -60px;
+    top: calc(-30px + 30vh);
+    left: calc(-60px + 90vw);
+    transition: all 5s ease;
 }
 
 .logo-part:nth-child(38) img{
     clip-path: inset(30% 20% 60% 70%);
     position: absolute;
-    top: -30px;
-    left: -70px;
+    top: calc(-30px + 40vh);
+    left: calc(-70px + 20vw);
+    transition: all 5s ease;
 }
 .logo-part:nth-child(39) img{
     clip-path: inset(30% 10% 60% 80%);
     position: absolute;
-    top: -30px;
-    left: -80px;
+    top: calc(-30px + 75vh);
+    left: calc(-80px + 60vw);
+    transition: all 5s ease;
 }
 
 .logo-part:nth-child(40) img{
     clip-path: inset(30% 0% 60% 90%);
     position: absolute;
-    top: -30px;
-    left: -90px;
+    top: calc(-30px + 65vh);
+    left: calc(-90px + 90vw);
+    transition: all 5s ease;
 }
 
 .logo-part:nth-child(41) img{
     clip-path:inset(40% 90% 50% 0);
     position: absolute;
-    top: -40px;
-    left: 0px;
+    top: calc(-40px + 70vh);
+    left: calc(0px + 85vw);
+    transition: all 5s ease;
 }
 
 .logo-part:nth-child(42) img{
     clip-path: inset(40% 80% 50% 10%);
     position: absolute;
-    top: -40px;
-    left: -10px;
+    top: calc(-40px + 35vh);
+    left: calc(-10px + 72vw);
+    transition: all 5s ease;
 }
 
 .logo-part:nth-child(43) img{
     clip-path: inset(40% 70% 50% 20%);
     position: absolute;
-    top: -40px;
-    left: -20px;
+    top: calc(-40px + 30vh);
+    left: calc(-20px + 37vw);
+    transition: all 5s ease;
 }
 
 .logo-part:nth-child(44) img{
     clip-path: inset(40% 60% 50% 30%);
     position: absolute;
-    top: -40px;
-    left: -30px;
+    top: calc(-40px + 90vh);
+    left: calc(-30px + 45vw);
+    transition: all 5s ease;
 }
 
 .logo-part:nth-child(45) img{
     clip-path: inset(40% 50% 50% 40%);
     position: absolute;
-    top: -40px;
-    left: -40px;
+    top: calc(-40px + 70vh);
+    left: calc(-40px + 25vw);
+    transition: all 5s ease;
 }
 
 .logo-part:nth-child(46) img{
     clip-path: inset(40% 40% 50% 50%);
     position: absolute;
-    top: -40px;
-    left: -50px;
+    top: calc(-40px + 10vh);
+    left: calc(-50px + 30vw);
+    transition: all 5s ease;
 }
 
 .logo-part:nth-child(47) img{
     clip-path: inset(40% 30% 50% 60%);
     position: absolute;
-    top: -40px;
-    left: -60px;
+    top: calc(-40px + 11vh);
+    left: calc(-60px + 73vw);
+    transition: all 5s ease;
 }
 
 .logo-part:nth-child(48) img{
     clip-path: inset(40% 20% 50% 70%);
     position: absolute;
-    top: -40px;
-    left: -70px;
+    top: calc(-40px + 50vh);
+    left: calc(-70px + 64vw);
+    transition: all 5s ease;
 }
 .logo-part:nth-child(49) img{
     clip-path: inset(40% 10% 50% 80%);
     position: absolute;
-    top: -40px;
-    left: -80px;
+    top: calc(-40px + 90vh);
+    left: calc(-80px + 59vw);
+    transition: all 5s ease;
 }
 
 .logo-part:nth-child(50) img{
     clip-path: inset(40% 0% 50% 90%);
     position: absolute;
-    top: -40px;
-    left: -90px;
+    top: calc(-40px + 2vh);
+    left: calc(-90px + 47vw);
+    transition: all 5s ease;
 }
 
 .logo-part:nth-child(51) img{
     clip-path:inset(50% 90% 40% 0);
     position: absolute;
-    top: -50px;
-    left: 0px;
+    top: calc(-50px + 25vh);
+    left: calc(0px + 17vw);
+    transition: all 5s ease;
 }
 
 .logo-part:nth-child(52) img{
     clip-path: inset(50% 80% 40% 10%);
     position: absolute;
-    top: -50px;
-    left: -10px;
+    top: calc(-50px + 62vh);
+    left: calc(-10px + 50vw);
+    transition: all 5s ease;
 }
 
 .logo-part:nth-child(53) img{
     clip-path: inset(50% 70% 40% 20%);
     position: absolute;
-    top: -50px;
-    left: -20px;
+    top: calc(-50px + 50vh);
+    left: calc(-20px + 42vw);
+    transition: all 5s ease;
 }
 
 .logo-part:nth-child(54) img{
     clip-path: inset(50% 60% 40% 30%);
     position: absolute;
-    top: -50px;
-    left: -30px;
+    top: calc(-50px + 30vh);
+    left: calc(-30px - 1vw);
+    transition: all 5s ease;
 }
 
 .logo-part:nth-child(55) img{
     clip-path: inset(50% 50% 40% 40%);
     position: absolute;
-    top: -50px;
-    left: -40px;
+    top: calc(-50px + 55vh);
+    left: calc(-40px + 10vw);
+    transition: all 5s ease;
 }
 
 .logo-part:nth-child(56) img{
@@ -418,166 +467,190 @@ body{
 .logo-part:nth-child(57) img{
     clip-path: inset(50% 30% 40% 60%);
     position: absolute;
-    top: -50px;
-    left: -60px;
+    top: calc(-50px + 7vh);
+    left: calc(-60px + 85vw);
+    transition: all 5s ease;
 }
 
 .logo-part:nth-child(58) img{
     clip-path: inset(50% 20% 40% 70%);
     position: absolute;
-    top: -50px;
-    left: -70px;
+    top: calc(-50px + 43vh);
+    left: calc(-70px + 85vw);
+    transition: all 5s ease;
 }
 .logo-part:nth-child(59) img{
     clip-path: inset(50% 10% 40% 80%);
     position: absolute;
-    top: -50px;
-    left: -80px;
+    top: calc(-50px + 50vh);
+    left: calc(-80px + 52vw);
+    transition: all 5s ease;
 }
 
 .logo-part:nth-child(60) img{
     clip-path: inset(50% 0% 40% 90%);
     position: absolute;
-    top: -50px;
-    left: -90px;
+    top: calc(-50px + 60vh);
+    left: calc(-90px + 73vw);
+    transition: all 5s ease;
 }
 
 .logo-part:nth-child(61) img{
     clip-path:inset(60% 90% 30% 0);
     position: absolute;
-    top: -60px;
-    left: 0px;
+    top: calc(-60px + 60vh);
+    left: calc(0px + 5vw);
+    transition: all 5s ease;
 }
 
 .logo-part:nth-child(62) img{
     clip-path: inset(60% 80% 30% 10%);
     position: absolute;
-    top: -60px;
-    left: -10px;
+    top: calc(-60px + 15vh);
+    left: calc(-10px + 40vw);
+    transition: all 5s ease;
 }
 
 .logo-part:nth-child(63) img{
     clip-path: inset(60% 70% 30% 20%);
     position: absolute;
-    top: -60px;
-    left: -20px;
+    top: calc(-60px + 15vh);
+    left: calc(-20px + 10vw);
+    transition: all 5s ease;
 }
 
 .logo-part:nth-child(64) img{
     clip-path: inset(60% 60% 30% 30%);
     position: absolute;
-    top: -60px;
-    left: -30px;
+    top: calc(-60px + 30vh);
+    left: calc(-30px + 5vw);
+    transition: all 5s ease;
 }
 
 .logo-part:nth-child(65) img{
     clip-path: inset(60% 50% 30% 40%);
     position: absolute;
-    top: -60px;
-    left: -40px;
+    top: calc(-60px - 5vh);
+    left: calc(-40px + 30vw);
+    transition: all 5s ease;
 }
 
 .logo-part:nth-child(66) img{
     clip-path: inset(60% 40% 30% 50%);
     position: absolute;
-    top: -60px;
-    left: -50px;
+    top: calc(-60px + 50vh);
+    left: calc(-50px + 25vw);
+    transition: all 5s ease;
 }
 
 .logo-part:nth-child(67) img{
     clip-path: inset(60% 30% 30% 60%);
     position: absolute;
-    top: -60px;
+    top: calc(-60px + 87vh);
     left: -60px;
+    transition: all 5s ease;
 }
 
 .logo-part:nth-child(68) img{
     clip-path: inset(60% 20% 30% 70%);
     position: absolute;
-    top: -60px;
-    left: -70px;
+    top: calc(-60px + 70vh);
+    left: calc(-70px + 30vw);
+    transition: all 5s ease;
 }
 .logo-part:nth-child(69) img{
     clip-path: inset(60% 10% 30% 80%);
     position: absolute;
-    top: -60px;
-    left: -80px;
+    top: calc(-60px + 30vh);
+    left: calc(-80px + 50vw);
+    transition: all 5s ease;
 }
 
 .logo-part:nth-child(70) img{
     clip-path: inset(60% 0% 30% 90%);
     position: absolute;
-    top: -60px;
-    left: -90px;
+    top: calc(-60px + 79vh);
+    left: calc(-90px + 3vw);
+    transition: all 5s ease;
 }
 
 .logo-part:nth-child(71) img{
     clip-path:inset(70% 90% 20% 0);
     position: absolute;
-    top: -70px;
-    left: 0px;
+    top: calc(-70px + 36vh);
+    left: calc(0px + 41vw);
+    transition: all 5s ease;
 }
 
 .logo-part:nth-child(72) img{
     clip-path: inset(70% 80% 20% 10%);
     position: absolute;
-    top: -70px;
-    left: -10px;
+    top: calc(-70px + 78vh);
+    left: calc(-10px + 40vw);
+    transition: all 5s ease;
 }
 
 .logo-part:nth-child(73) img{
     clip-path: inset(70% 70% 20% 20%);
     position: absolute;
-    top: -70px;
-    left: -20px;
+    top: calc(-70px + 10vh);
+    left: calc(-20px + 46vw);
+    transition: all 5s ease;
 }
 
 .logo-part:nth-child(74) img{
     clip-path: inset(70% 60% 20% 30%);
     position: absolute;
-    top: -70px;
-    left: -30px;
+    top: calc(-70px + 70vh);
+    left: calc(-30px + 75vw);
+    transition: all 5s ease;
 }
 
 .logo-part:nth-child(75) img{
     clip-path: inset(70% 50% 20% 40%);
     position: absolute;
-    top: -70px;
-    left: -40px;
+    top: calc(-70px + 25vh);
+    left: calc(-40px + 76vw);
+    transition: all 5s ease;
 }
 
 .logo-part:nth-child(76) img{
     clip-path: inset(70% 40% 20% 50%);
     position: absolute;
-    top: -70px;
-    left: -50px;
+    top: calc(-70px + 11vh);
+    left: calc(-50px + 60vw);
+    transition: all 5s ease;
 }
 
 .logo-part:nth-child(77) img{
     clip-path: inset(70% 30% 20% 60%);
     position: absolute;
     top: -70px;
-    left: -60px;
+    left: calc(-60px + 70vw);
+    transition: all 5s ease;
 }
 
 .logo-part:nth-child(78) img{
     clip-path: inset(70% 20% 20% 70%);
     position: absolute;
-    top: -70px;
-    left: -70px;
+    top: calc(-70px + 80vh);
+    left: calc(-70px + 66vw);
+    transition: all 5s ease;
 }
 .logo-part:nth-child(79) img{
     clip-path: inset(70% 10% 20% 80%);
     position: absolute;
-    top: -70px;
-    left: -80px;
+    top: calc(-70px + 85vh);
+    left: calc(-80px + 20vw);
+    transition: all 5s ease;
 }
 
 .logo-part:nth-child(80) img{
     clip-path: inset(70% 0% 20% 90%);
     position: absolute;
-    top: -70px;
-    left: -90px;
+    top: calc(-70px + 63vh);
+    left: calc(-90px + 13vw);
+    transition: all 5s ease;
 }
 
 .logo-part:nth-child(81) img{
@@ -590,56 +663,64 @@ body{
 .logo-part:nth-child(82) img{
     clip-path: inset(80% 80% 10% 10%);
     position: absolute;
-    top: -80px;
-    left: -10px;
+    top: calc(-80px + 58vh);
+    left: calc(-10px + 30vw);
+    transition: all 5s ease;
 }
 
 .logo-part:nth-child(83) img{
     clip-path: inset(80% 70% 10% 20%);
     position: absolute;
-    top: -80px;
-    left: -20px;
+    top: calc(-80px + 70vh);
+    left: calc(-20px + 45vw);
+    transition: all 5s ease;
 }
 
 .logo-part:nth-child(84) img{
     clip-path: inset(80% 60% 10% 30%);
     position: absolute;
-    top: -80px;
-    left: -30px;
+    top: calc(-80px + 65vh);
+    left: calc(-30px + 55vw);
+    transition: all 5s ease;
 }
 
 .logo-part:nth-child(85) img{
     clip-path: inset(80% 50% 10% 40%);
     position: absolute;
-    top: -80px;
-    left: -40px;
+    top: calc(-80px - 3vh);
+    left: calc(-40px + 15vw);
+    transition: all 5s ease;
 }
 
 .logo-part:nth-child(86) img{
     clip-path: inset(80% 40% 10% 50%);
     position: absolute;
-    top: -80px;
-    left: -50px;
+    top: calc(-80px + 50vh);
+    left: calc(-50px - 2vw);
+    transition: all 5s ease;
 }
 
 .logo-part:nth-child(87) img{
     clip-path: inset(80% 30% 10% 60%);
     position: absolute;
-    top: -80px;
-    left: -60px;
+    top: calc(-80px + 42vh);
+    left: calc(-60px + 15vw);
+    transition: all 5s ease;
 }
 
 .logo-part:nth-child(88) img{
     clip-path: inset(80% 20% 10% 70%);
     position: absolute;
-    top: -80px;
-    left: -70px;
+    top: calc(-80px + 53vh);
+    left: calc(-70px + 83vw);
+    transition: all 5s ease;
 }
 .logo-part:nth-child(89) img{
     clip-path: inset(80% 10% 10% 80%);
     position: absolute;
-    top: -80px;
-    left: -80px;
+    top: calc(-80px + 45vh);
+    left: calc(-80px + 90vw);
+    transition: all 5s ease;
 }
 
 .logo-part:nth-child(90) img{
@@ -666,43 +747,49 @@ body{
 .logo-part:nth-child(93) img{
     clip-path: inset(90% 70% 0% 20%);
     position: absolute;
-    top: -90px;
-    left: -20px;
+    top: calc(-90px - 8vh);
+    left: calc(-20px + 8vw);
+    transition: all 5s ease;
 }
 
 .logo-part:nth-child(94) img{
     clip-path: inset(90% 60% 0% 30%);
     position: absolute;
-    top: -90px;
+    top: calc(-90px - 4vh);
     left: -30px;
+    transition: all 5s ease;
 }
 
 .logo-part:nth-child(95) img{
     clip-path: inset(90% 50% 0% 40%);
     position: absolute;
-    top: -90px;
-    left: -40px;
+    top: calc(-90px + 70vh);
+    left: calc(-40px + 90vw);
+    transition: all 5s ease;
 }
 
 .logo-part:nth-child(96) img{
     clip-path: inset(90% 40% 0% 50%);
     position: absolute;
-    top: -90px;
-    left: -50px;
+    top: calc(-90px + 2vh);
+    left: calc(-50px + 4vw);
+    transition: all 5s ease;
 }
 
 .logo-part:nth-child(97) img{
     clip-path: inset(90% 30% 0% 60%);
     position: absolute;
-    top: -90px;
-    left: -60px;
+    top: calc(-90px + 10vh);
+    left: calc(-60px + 90vw);
+    transition: all 5s ease;
 }
 
 .logo-part:nth-child(98) img{
     clip-path: inset(90% 20% 0% 70%);
     position: absolute;
-    top: -90px;
-    left: -70px;
+    top: calc(-90px + 43vh);
+    left: calc(-70px + 71vw);
+    transition: all 5s ease;
 }
 
 .logo-part:nth-child(99) img{
@@ -720,7 +807,7 @@ body{
 }
 
 .hero-image{
-    min-height: calc(100vh - 116px);
+    min-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
