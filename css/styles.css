@@ -29,58 +29,60 @@
   0% {
     background-position: 0% 50%;
   }
+
   100% {
     background-position: 100%;
   }
 }
 
 /* ivan css */
-.ivan{
-    background-image: linear-gradient(rgb(11, 204, 21),rgb(255, 255, 255),rgb(255, 0, 0));
-}
-.ivanbio{
-    font-weight: 600;
-    letter-spacing:2.5px;
+.ivan {
+  background-image: linear-gradient(rgb(11, 204, 21), rgb(255, 255, 255), rgb(255, 0, 0));
 }
 
-.ivantext{
-    font-size: larger;
-    
+.ivanbio {
+  font-weight: 600;
+  letter-spacing: 2.5px;
 }
 
-#bold{
-    /* border: 2px solid rgb(11, 204, 21); */
-    border: 2px solid black;
-    border-style: groove;
-    box-shadow: -1px 1px 20px rgba(255, 0, 0);
+.ivantext {
+  font-size: larger;
+
 }
 
-.card-text-moon{
-    color: #a6a6a6;
+#bold {
+  /* border: 2px solid rgb(11, 204, 21); */
+  border: 2px solid black;
+  border-style: groove;
+  box-shadow: -1px 1px 20px rgba(255, 0, 0);
+}
+
+.card-text-moon {
+  color: #a6a6a6;
 }
 
 
 /* Jacky CSS */
 .card-me:hover {
-    border-color: rgb(195, 204, 231);
-    box-shadow: 0px 0px 7px 4px rgba(91, 100, 107, 0.527);
-    position: relative;
-    animation: rotate 4s infinite ease-in-out;
-  }
+  border-color: rgb(195, 204, 231);
+  box-shadow: 0px 0px 7px 4px rgba(91, 100, 107, 0.527);
+  position: relative;
+  animation: rotate 4s infinite ease-in-out;
+}
 
 
-.card-self{
+.card-self {
   background-color: rgb(255, 194, 250);
 }
 
-.btn-jacky{
- 
+.btn-jacky {
+
   text-decoration: none;
-  text-decoration-color: white ;
+  text-decoration-color: white;
 }
 
 .glow-on-hover {
-  
+
   border: none;
   outline: none;
   color: rgb(0, 0, 0);
@@ -88,7 +90,7 @@
   cursor: pointer;
   position: relative;
   z-index: 0;
-  
+
 }
 
 .glow-on-hover:before {
@@ -96,7 +98,7 @@
   background: linear-gradient(45deg, #ff0000, #ff7300, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
   position: absolute;
   top: -2px;
-  left:-2px;
+  left: -2px;
   background-size: 400%;
   z-index: -1;
   filter: blur(5px);
@@ -107,23 +109,23 @@
   transition: opacity .3s ease-in-out;
   border-radius: 10px;
   text-decoration: none;
-  text-decoration-color: white ;
+  text-decoration-color: white;
 }
 
 .glow-on-hover:active {
   text-decoration: none;
-  text-decoration-color: white ;
+  text-decoration-color: white;
 }
 
 .glow-on-hover:active:after {
- background: transparent;
+  background: transparent;
   color: white;
-  
+
 }
 
 .glow-on-hover:hover:before {
   opacity: 1;
-  
+
 }
 
 .glow-on-hover:after {
@@ -136,33 +138,46 @@
   left: 0;
   top: 0;
   border-radius: 5px;
-  
+
 }
 
 @keyframes glowing {
-  0% { background-position: 0 0; }
-  50% { background-position: 400% 0; }
-  100% { background-position: 0 0; }
+  0% {
+    background-position: 0 0;
+  }
+
+  50% {
+    background-position: 400% 0;
+  }
+
+  100% {
+    background-position: 0 0;
+  }
 }
+
 /* Jacky CSS END */
 
 /* Kendall's CSS */
-.card-titlek{
+.card-titlek {
   color: rgb(255, 0, 0);
 }
-.card-textk{
-color: rgb(255, 0, 0);
+
+.card-textk {
+  color: rgb(255, 0, 0);
 }
-.kenny-btn{
+
+.kenny-btn {
   color: rgb(255, 0, 0);
   border: 2px rgb(255, 255, 255);
   border-style: solid;
   border-radius: 15px;
 }
-.kenny-btn:hover{
+
+.kenny-btn:hover {
   border-color: white;
   color: rgb(255, 255, 255);
 }
+
 /* End of Kendall's CSS */
 
 /*ChrisBreezy CSS */
@@ -178,86 +193,127 @@ z-index: -1;
 background-size: 400%;
 }
 
-.glow::after{
-filter: blur(30px);
-opacity: 0.99;
+.glow::after {
+  filter: blur(30px);
+  opacity: 0.99;
 }
 
-.card-titlechris{
+.card-titlechris {
   color: #dee1e4;
 }
-.card-textchris{
-  color: #dee1e4;
-}
-.chris-breezy{
-  
- 
-    background: #e63946;
-    text-decoration: none;
-    width: 200px;
-    height: 38px;
-    border-radius: 5px;
-    overflow: hidden;
 
-   
-    position: relative;
+.card-textchris {
+  color: #dee1e4;
 }
+
+.chris-breezy {
+
+
+  background: #e63946;
+  text-decoration: none;
+  width: 200px;
+  height: 38px;
+  border-radius: 5px;
+  overflow: hidden;
+
+
+  position: relative;
+}
+
 .btn.chris-breezy::after,
 .btn.chris-breezy::before {
-    content: "Explore More About Me";
-    position: absolute;
-    color: #fff;
-    font-weight: bold;
-    line-height: 2.5;
-    margin-left: -90px;
-    transition: all 400ms;
-    top: 0;
+  content: "Explore More About Me";
+  position: absolute;
+  color: #fff;
+  font-weight: bold;
+  line-height: 2.5;
+  margin-left: -90px;
+  transition: all 400ms;
+  top: 0;
 }
 
 .btn.btn.chris-breezy:hover::after {
-    top: -36px;
+  top: -36px;
 }
 
 .btn.chris-breezy::before {
-    content: "Get Rick Rolled Click Me ";
-    top: 46px;
-    background-image: url("https://pfps.gg/assets/banners/5284-rick-roll.gif");
+  content: "Get Rick Rolled Click Me ";
+  top: 46px;
+  background-image: url("https://pfps.gg/assets/banners/5284-rick-roll.gif");
 }
 
 .btn.btn.chris-breezy:hover::before {
-    top: 0;
+  top: 0;
 }
 
 /* Yadi's CSS */
 /* card */
-.container-yadi .btn-light{
+.container-yadi .btn-light {
   background: radial-gradient(rgb(188, 194, 204), rgb(102, 110, 221));
-  }
-  .container-yadi .card-title{
-    text-align: center;
-  }
-  .container-yadi .card-img-top{
-    border:solid rgb(224, 224, 233);
-    background-color: #999191;
-    border-radius: 50%;
-  }
-  .container-yadi .pic-backround{
-    width: 18rem; 
-  }
-  .container-yadi .btn:hover{
-    background: radial-gradient( rgb(102, 110, 221),rgb(188, 194, 204));
-    color: white;
-  }
-  .yadi-border{
-  border-radius: 5%; 
+}
+
+.container-yadi .card-title {
+  text-align: center;
+}
+
+.container-yadi .card-img-top {
+  border: solid rgb(224, 224, 233);
+  background-color: #999191;
+  border-radius: 50%;
+}
+
+.container-yadi .pic-backround {
+  width: 18rem;
+}
+
+.container-yadi .btn:hover {
+  background: radial-gradient(rgb(102, 110, 221), rgb(188, 194, 204));
+  color: white;
+}
+
+.yadi-border {
+  border-radius: 5%;
   background: rgb(240, 240, 251);
   box-shadow: 10px 40px 45px 10px rgba(0, 0, 0, 0.2);
 }
+
 /* Yadi's CSS Ends */
+
+/* Trish's CSS Begins */
+.trish {
+  background-color: red;
+  background-image:
+    linear-gradient(
+      to right, 
+      rgba(226, 12, 208, 0.932), 
+      #2143afde, 
+      rgba(77, 8, 122, 0.904), 
+      rgba(12, 150, 104, 0.877)
+    );
+
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  color: rgba(253, 250, 250, 0.897); 
+  font-size: 17px; 
+}
+
+.trish-title {
+  font-weight: bolder;
+}
+
+.trish-btn {
+  color: rgba(7, 25, 180, 0.877); 
+  background-color: rgba(10, 243, 224, 0.932);
+}
+
+.trish-btn:hover {
+  color: rgba(10, 243, 224, 0.932);
+  background-color: rgba(7, 25, 180, 0.877)
+}
+/* Trish's CSS Ends */
 
 /* Eddie's CSS Start */
 
-.em-card{
+.em-card {
   background-color: #4801FF;
   color: white;
   box-shadow: black 0px 0px 40px;
@@ -265,22 +321,112 @@ opacity: 0.99;
   border-bottom-right-radius: 20px;
 }
 
-.em-img{
+.em-img {
   box-shadow: #000000 0px 0px 40px;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
 }
 
-.em-btn{
+.em-btn {
   border: 4px solid black;
   color: white;
   border-radius: 50px;
   background-color: slategray;
 }
 
-.em-body{
+
+.em-body {
   background-color: #4801FF;
+}
+.em-body{
+  background-color: #F5F5F5;
+}
+
+.em-logo img{
+    height: 275px;
+    position: absolute;
+    margin: 25px;
+    box-shadow: 0px 0px 10px black;
+    border: solid black 3px;
+    border-radius: 7px;
+
+
 }
 
 /* Eddie's CSS End */
+
+
+/* Start Dustin CSS */
+#dustin-cont {
+  border-radius: 15px;
+  border-top-right-radius: 145px;
+  border: 4px solid black;
+  background-image: url("/dustin/img/techBG.gif");
+  background-size: 40%;
+  position: relative;
+}
+
+.dustin-img {
+  width: 100%;
+  border-radius: 50%;
+  border-top-left-radius: 10px;
+  border-bottom-right-radius: 0px;
+}
+
+#dustin-button {
+  background-color: black;
+  border-radius: 15px;
+}
+
+#dustin-cont .card-text {
+ text-shadow: 1px 1px 4px black;
+}
+
+#dustin-cont .card-body::before {
+  content: "";
+  position: absolute;
+  top: 275px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  background-image: url("/dustin/img/circuit-board-technology-background-vector-13208246.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  opacity: .5;
+}
+
+#dustin-cont .card-body-bg {
+  position: relative;
+}
+
+/* End Dustin CSS */
+
+/*Sonic's CSS Begins*/
+.sonic {
+  background-color: red;
+  background-image:
+    linear-gradient(
+      to left, 
+      rgba(19, 172, 26, 0.829), 
+      #a11a1ad0, 
+      rgba(11, 21, 170, 0.836)
+    );
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(240, 233, 233);
+}
+
+.sonic-title {
+  font-weight: bold;
+}
+
+.btn-sonic {
+  color:#0886cfc9;
+  background-color: rgb(240, 233, 233) ;
+}
+
+.btn-sonic:hover {
+  color: rgb(240, 233, 233);
+  background-color: #0886cfc9;
+}
+/*Sonic's CSS Ends*/
 
