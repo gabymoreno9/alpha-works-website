@@ -30,3 +30,6 @@ Christopher Landeros
 
 Jacqueline Martinez
 <https://www.linkedin.com/in/jacqueline-martinez-546208133/>
+
+Trish Brown
+<https://www.linkedin.com/in/trishawna-brown-5924a6235/>
