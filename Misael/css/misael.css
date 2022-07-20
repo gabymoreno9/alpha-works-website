@@ -8,7 +8,10 @@ body{
 
 .mb-nav{
     height: 100px;
+    min-width: calc(100vw - 16px);
     margin: 8px;
+    background-color: yellow;
+    /* position: fixed; */
 }
 
 .logo-container{
@@ -407,8 +410,9 @@ body{
 .logo-part:nth-child(56) img{
     clip-path: inset(50% 40% 40% 50%);
     position: absolute;
-    top: -50px;
-    left: -50px;
+    top: calc(-50px + 30px);
+    left: calc(-50px + 100vw - 116px);
+    transition: all 5s ease;
 }
 
 .logo-part:nth-child(57) img{
@@ -700,6 +704,7 @@ body{
     top: -90px;
     left: -70px;
 }
+
 .logo-part:nth-child(99) img{
     clip-path: inset(90% 10% 0% 80%);
     position: absolute;
@@ -712,6 +717,13 @@ body{
     position: absolute;
     top: -90px;
     left: -90px;
+}
+
+.hero-image{
+    min-height: calc(100vh - 116px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .container-body{
