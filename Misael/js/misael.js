@@ -1,3 +1,9 @@
+//loops through and initializes the number of pieces in the html
+for(let i = 0; i < 100; i++){
+    document.querySelector(".logo-container").innerHTML += `
+        <div class="logo-part"><img class="logoPortion rotatePiece" src="./img/mb-logo.png"></img></div>`;
+}
+
 //runs rotate function at start of page
 rotate();
 
