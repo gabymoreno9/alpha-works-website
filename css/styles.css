@@ -438,7 +438,7 @@ border: 1px solid #000000;
   animation-fill-mode: forwards; */
 
   animation:
-    animateBG 3s ease-in 0s 1 forwards,
+    animateDustinBG 3s ease-in 0s 1 forwards,
     blackhole 1.5s ease-in-out 0s 1 forwards;
       
 }
@@ -473,17 +473,20 @@ border: 1px solid #000000;
   }
 }
 
-@keyframes animateBG {
+@keyframes animateDustinBG {
   0% {
-    background: radial-gradient(circle, rgb(0, 0, 0) 0%,rgb(255, 255, 255) 2%, rgb(0, 0, 0) 5%, rgb(0, 0, 0) 100%);
+    background: radial-gradient(circle, rgb(0, 0, 0) 0%,rgb(0, 0, 0) 2%, rgb(0, 0, 0) 5%, rgb(0, 0, 0) 100%);
     background-position: 50% 0;
     background-size: 1%;
   }
-  10%{
+  20%{
     background-size: 1%;
+    background: radial-gradient(circle, rgb(0, 0, 0) 0%,rgb(255, 255, 255) 2%, rgb(0, 0, 0) 5%, rgb(0, 0, 0) 100%);
+    background-position: 50% 0;
   }
-
   50% {
+    background-position: 50% 0;
+    /* background: radial-gradient(circle, rgb(0, 0, 0) 0%,rgb(255, 255, 255) 2%, rgb(0, 0, 0) 5%, rgb(0, 0, 0) 100%); */
     background-size: 200%;
   } 
   85%{
@@ -502,14 +505,14 @@ border: 1px solid #000000;
     /* background-size: 100% 1000%; */
   }
   96%{
-    background: radial-gradient(circle, rgb(0, 0, 0) 3%, rgb(0,0,255) 15%,rgb(255, 255, 255) 25%, rgb(0, 0, 0) 99%, rgb(0, 0, 0) 100%);
+    background: radial-gradient(circle, rgb(0, 0, 0) 5%, rgb(0,0,0)8%, rgb(0,0,205) 9%, rgb(0,0,255) 25%, rgb(255, 255, 255) 26%, rgb(255,255,255)45%, rgb(0, 0, 0) 99%, rgb(0, 0, 0) 100%);
   }
   98%{
     transform: scaleY(100%);
     
   }
   100% {
-    background: radial-gradient(circle, rgb(0, 0, 0) 3%, rgb(0,0,255) 15%,rgb(255, 255, 255) 25%, rgb(0, 0, 0) 99%, rgb(0, 0, 0) 100%);
+    background: radial-gradient(circle, rgb(0, 0, 0) 5%, rgb(0,0,0)8%, rgb(0,0,205) 9%, rgb(0,0,255) 25%, rgb(255, 255, 255) 26%, rgb(255,255,255)45%, rgb(0, 0, 0) 99%, rgb(0, 0, 0) 100%);
     background-position: 50% 0;
     background-size: 100%;
     height: 75px;
