@@ -278,7 +278,7 @@
   color: white;
 }
 
-.container-yadi .card{
+.container-yadi .card {
   border-radius: 5%;
   background: rgb(240, 240, 251);
   box-shadow: 10px 40px 45px 10px rgba(0, 0, 0, 0.2);
@@ -291,17 +291,15 @@
 .trish {
   background-color: red;
   background-image:
-    linear-gradient(
-      to right, 
-      rgba(226, 12, 208, 0.932), 
-      #2143afde, 
-      rgba(77, 8, 122, 0.904), 
-      rgba(12, 150, 104, 0.877)
-    );
+    linear-gradient(to right,
+      rgba(226, 12, 208, 0.932),
+      #2143afde,
+      rgba(77, 8, 122, 0.904),
+      rgba(12, 150, 104, 0.877));
 
-  font-family:Verdana, Geneva, Tahoma, sans-serif;
-  color: rgba(253, 250, 250, 0.897); 
-  font-size: 17px; 
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgba(253, 250, 250, 0.897);
+  font-size: 17px;
 }
 
 .trish-title {
@@ -309,7 +307,7 @@
 }
 
 .trish-btn {
-  color: rgba(7, 25, 180, 0.877); 
+  color: rgba(7, 25, 180, 0.877);
   background-color: rgba(10, 243, 224, 0.932);
 }
 
@@ -317,6 +315,7 @@
   color: rgba(10, 243, 224, 0.932);
   background-color: rgba(7, 25, 180, 0.877)
 }
+
 /* Trish's CSS Ends */
 
 
@@ -343,6 +342,62 @@
   background-color: slategray;
 }
 
+
+
+/* .em-body {
+  background-color: #4801FF;
+} */
+.em-body {
+  background-color: white;
+}
+
+.em-logo img {
+  height: 275px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 35px;
+  /* position: absolute; */
+  /* margin: 25px; */
+  box-shadow: 0px 0px 7px black;
+  border: solid black 3px;
+  border-radius: 7px;
+}
+
+.welcome {}
+
+.underline {
+  box-sizing: border-box;
+
+  position: absolute;
+
+  width: 458px;
+  height: 10px;
+  left: 540px;
+
+
+  background: #4801FF;
+  border-radius: 50px;
+  border: 1px solid #000000;
+  transform: matrix(1, 0, 0, -1, 0, 0);
+}
+
+.em-location {}
+
+/* .em-header{
+box-sizing: border-box;
+
+position: absolute;
+width: 1728px;
+height: 2660px;
+left: 0px;
+top: 886px;
+
+background: #202226;
+border: 1px solid #000000;
+} */
+
+=======
 .em-body{
   background-color: white;
 }
@@ -367,6 +422,7 @@
     transform: matrix(1, 0, 0, -1, 0, 0);
 }
 
+
 /* Eddie's CSS End */
 
 
@@ -376,7 +432,7 @@
   border-top-right-radius: 145px;
   border: 4px solid black;
   background-image: url("/dustin/img/techBG.gif");
-  background-size: 40%;
+  background-size: 80%;
   position: relative;
 }
 
@@ -388,12 +444,113 @@
 }
 
 #dustin-button {
+  z-index: 3;
   background-color: black;
+  background-repeat: no-repeat;
   border-radius: 15px;
+  height: 38px;
+  width: 177.3px;
+  /* position: absolute;
+  top: 90%;
+  left: 10%;
+  right: 0;
+  bottom: 0; */
+  text-align: center;
+  
+}
+
+#dustin-button:hover {
+  /* animation-name: blackhole;
+  animation-duration: 1.5s;
+  animation-timing-function: ease-in-out;
+  animation-delay: 0;
+  animation-play-state: running;
+  animation-fill-mode: forwards; */
+
+  animation:
+    animateDustinBG 3s ease-in 0s 1 forwards,
+    blackhole 1.5s ease-in-out 0s 1 forwards;
+      
+}
+#dustin-button .text{
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+
+}
+
+@keyframes blackhole {
+  0% {
+    border-radius: 15px;
+    height: 38px;
+    width: 177.3px;
+    font-size: 1rem;
+    
+    opacity: 1;
+  }
+  
+  50% {
+    font-size: 0rem;
+    border-radius: 25%;
+  }
+  100% {
+    font-size: 0rem;
+    border-radius: 50%;
+    height: 75px;
+    width: 75px;
+    opacity: 1;
+  }
+}
+
+@keyframes animateDustinBG {
+  0% {
+    background: radial-gradient(circle, rgb(0, 0, 0) 0%,rgb(0, 0, 0) 2%, rgb(0, 0, 0) 5%, rgb(0, 0, 0) 100%);
+    background-position: 50% 0;
+    background-size: 1%;
+  }
+  20%{
+    background-size: 1%;
+    background: radial-gradient(circle, rgb(0, 0, 0) 0%,rgb(255, 255, 255) 2%, rgb(0, 0, 0) 5%, rgb(0, 0, 0) 100%);
+    background-position: 50% 0;
+  }
+  50% {
+    background-position: 50% 0;
+    /* background: radial-gradient(circle, rgb(0, 0, 0) 0%,rgb(255, 255, 255) 2%, rgb(0, 0, 0) 5%, rgb(0, 0, 0) 100%); */
+    background-size: 200%;
+  } 
+  85%{
+    transform: scaleY(100%);
+    /* background-size: 200%; */
+  }
+  86%{
+    /* background-size: 200% ; */
+  } 
+  95%{
+    background: radial-gradient(circle, rgb(0, 0, 0) 0%,rgb(255, 255, 255) 2%, rgb(0, 0, 0) 5%, rgb(0, 0, 0) 100%);
+    background-position: 50% 0;
+    background-size: 2000%;
+    height: 75px;
+    transform: scaleY(1%);
+    /* background-size: 100% 1000%; */
+  }
+  96%{
+    background: radial-gradient(circle, rgb(0, 0, 0) 5%, rgb(0,0,0)8%, rgb(0,0,205) 9%, rgb(0,0,255) 25%, rgb(255, 255, 255) 26%, rgb(255,255,255)45%, rgb(0, 0, 0) 99%, rgb(0, 0, 0) 100%);
+  }
+  98%{
+    transform: scaleY(100%);
+    
+  }
+  100% {
+    background: radial-gradient(circle, rgb(0, 0, 0) 5%, rgb(0,0,0)8%, rgb(0,0,205) 9%, rgb(0,0,255) 25%, rgb(255, 255, 255) 26%, rgb(255,255,255)45%, rgb(0, 0, 0) 99%, rgb(0, 0, 0) 100%);
+    background-position: 50% 0;
+    background-size: 100%;
+    height: 75px;
+  }
 }
 
 #dustin-cont .card-text {
- text-shadow: 1px 1px 4px black;
+  text-shadow: 1px 1px 4px black;
 }
 
 #dustin-cont .card-body::before {
@@ -413,19 +570,34 @@
   position: relative;
 }
 
+.dustin-link {
+  position: absolute;
+  z-index: 2;
+  width: 25px;
+  height: 25px;
+  top: 240px;
+  left: 10px;
+  background-color: blue;
+  border-radius: 15px;
+}
+
+.dustin-link svg {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+
 /* End Dustin CSS */
 
 /*Sonic's CSS Begins*/
 .sonic {
   background-color: red;
   background-image:
-    linear-gradient(
-      to left, 
-      rgba(19, 172, 26, 0.829), 
-      #a11a1ad0, 
-      rgba(11, 21, 170, 0.836)
-    );
-  font-family:Verdana, Geneva, Tahoma, sans-serif;
+    linear-gradient(to left,
+      rgba(19, 172, 26, 0.829),
+      #a11a1ad0,
+      rgba(11, 21, 170, 0.836));
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: rgb(240, 233, 233);
 }
 
@@ -434,16 +606,17 @@
 }
 
 .btn-sonic {
-  color:#0886cfc9;
-  background-color: rgb(240, 233, 233) ;
+  color: #0886cfc9;
+  background-color: rgb(240, 233, 233);
 }
 
 .btn-sonic:hover {
   color: rgb(240, 233, 233);
   background-color: #0886cfc9;
 }
-/*Sonic's CSS Ends*/
 
+
+/*Sonic's CSS Ends*/
 
 /* Taofeek's CSS */
 #TCard_body {
