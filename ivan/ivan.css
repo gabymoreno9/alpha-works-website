@@ -32,7 +32,7 @@ nav{
     margin-top: 70vh;
     
 }
-.fa-brands {
+.fa-brands, .fa-solid {
     color: rgb(245, 245, 245);
     font-size: 1.5em;
     padding-bottom: 15px;

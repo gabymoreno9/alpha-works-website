@@ -53,10 +53,9 @@
 }
 
 #bold {
-  /* border: 2px solid rgb(11, 204, 21); */
-  border: 2px solid black;
+  
   border-style: groove;
-  box-shadow: -1px 1px 20px rgba(255, 0, 0);
+  box-shadow: -1px 5px 33px rgb(0, 0, 0);
 }
 
 .card-text-moon {
