@@ -809,8 +809,29 @@ body{
 .hero-image{
     min-height: 100vh;
     display: flex;
-    justify-content: center;
     align-items: center;
+    flex-direction: column;
+    background: rgb(0,0,0);
+    background: linear-gradient(180deg, rgba(0,0,0,1) 60%, rgba(33,168,160,0.9864320728291317) 80%, rgba(255,255,255,1) 100%);
+}
+
+.nameHero{
+    font-family: 'Rubik Moonrocks', cursive;
+    font-size: 80px;
+    color: white;
+    margin-top: 200px;
+    margin-bottom: 10px;
+}
+
+.hero-image h2{
+    color: white;
+    margin-top: 0;
+}
+
+.textHero {
+    font-family: 'Rubik Moonrocks', cursive;
+    font-size: 80px;
+    color: white;
 }
 
 .container-body{
