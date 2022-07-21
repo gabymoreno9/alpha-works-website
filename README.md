@@ -33,3 +33,6 @@ Jacqueline Martinez
 
 Trish Brown
 <https://www.linkedin.com/in/trishawna-brown-5924a6235/>
+
+Misael Bolainez
+<https://www.linkedin.com/in/misael-bolainez/>
