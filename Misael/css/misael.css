@@ -815,7 +815,7 @@ body{
     background: linear-gradient(180deg, rgba(0,0,0,1) 60%, rgba(33,168,160,0.9864320728291317) 80%, rgba(255,255,255,1) 100%);
 }
 
-.hero-image h1{
+.nameHero{
     font-family: 'Rubik Moonrocks', cursive;
     font-size: 80px;
     color: white;
@@ -824,6 +824,13 @@ body{
 }
 
 .hero-image h2{
+    color: white;
+    margin-top: 0;
+}
+
+.textHero {
+    font-family: 'Rubik Moonrocks', cursive;
+    font-size: 80px;
     color: white;
 }
 
