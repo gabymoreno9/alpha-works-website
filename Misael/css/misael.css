@@ -816,8 +816,11 @@ body{
 }
 
 .hero-image h1{
+    font-family: 'Rubik Moonrocks', cursive;
+    font-size: 80px;
     color: white;
-    margin-top: 200px; 
+    margin-top: 200px;
+    margin-bottom: 10px;
 }
 
 .hero-image h2{
