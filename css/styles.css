@@ -444,6 +444,35 @@
 }
 /*Sonic's CSS Ends*/
 
+
+/* Taofeek's CSS */
+#TCard_body {
+  background: #5A3F37;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #2C7744, #5A3F37);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #2C7744, #5A3F37); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+#T_Btn{
+  background-color: #000000;
+  color: white;
+  box-shadow: 0px 0px 7px 4px white;
+}
+
+
+#T_Btn:active{
+ background-color: #00ffd533;
+}
+
+#T_mail:active{
+  background-color: #00ffd533;
+}
+#T_mail {
+  background-color: #555857;
+  box-shadow: 0px 0px 4px 4px white;
+}
+
+/* Taofeek's CSS Ends */
+=======
 .moon_btn {
   border: none;
   padding: 5px;

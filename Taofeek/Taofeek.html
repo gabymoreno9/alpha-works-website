@@ -41,8 +41,8 @@
 
 <!--Make sure the navbar and footer are inoperable at the same time.i.e if the navBar is open the footer should close automatically and if the footer is open the nav should close 
   2- On mobile the flex direction should change to colum and the flex should stack --->
-<body class="bg-color bg-no-repeat bg-center bg-cover bg-fixed -z-10" style="background-image: url('/Taofeek/img/bernardo-lorena-ponte-cEp2Tow6XKk-unsplash.jpg')">
-  <nav class="z-50 fixed bg-trans">
+<body class="bg-color bg-no-repeat bg-center bg-cover bg-fixed -z-10 overflow-scroll" style="background-image: url('/Taofeek/img/bernardo-lorena-ponte-cEp2Tow6XKk-unsplash.jpg')">
+  <nav class="z-50 bg-trans">
 
      <div id="navRemove">
     <svg width="82" height="49" viewBox="0 0 82 49" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -63,6 +63,22 @@
     <p class="text-justify indent-8">
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut illum, alias illo corporis voluptate distinctio esse vel dolorem laudantium atque possimus sed porro voluptatibus labore nesciunt, tempore modi repellat. Ratione explicabo laudantium officiis. Harum autem, molestiae, aliquid ab praesentium distinctio tempora nam dolorem, optio fugiat atque beatae eius ullam fugit?
     </p>
+    <div class="grid grid-cols-2 gap-4">
+     
+        <div class="flex items-center justify-end">
+          <button class="hover:bg-trans bg-trans p-1 border-trans w-20 text-center">LinkedIn</button>
+        </div>
+        <div class="flex items-center justify-start">
+          <button class="hover:bg-trans bg-trans p-1 border-trans  w-20">Github</button>
+        </div>
+      
+        <div class="flex items-center justify-end">
+          <button class="hover:bg-trans bg-trans p-1 border-trans  w-20">Twitter</button>
+        </div>
+        <div class="flex items-center justify-start">
+          <button class="hover:bg-trans bg-trans p-1 border-trans  w-20">Discord</button>
+        </div>
+    </div>
    </div>
    </div>
   </nav> 
