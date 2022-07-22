@@ -65,8 +65,8 @@
 
 /* Jacky CSS */
 .card-me:hover {
-  border-color: rgb(195, 204, 231);
-  box-shadow: 0px 0px 7px 4px rgba(91, 100, 107, 0.527);
+  border-color: rgba(99, 0, 108, 0.738);
+  box-shadow: 0px 0px 20px 4px rgba(152, 0, 166, 0.669);
   position: relative;
   animation: rotate 4s infinite ease-in-out;
 }
