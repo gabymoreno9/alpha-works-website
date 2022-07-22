@@ -9,7 +9,6 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
       integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
       crossorigin="anonymous"/>
-    <link rel="stylesheet" href="Kenny.html">
   </head>
   <body>
 <div class="jumbotron jumbotron-fluid">
@@ -26,66 +25,83 @@
                 <div class="card" style="width: 18rem;">
                         <img class="card-img-top" src="/img/missile.jpg" alt="Card image cap">
                     <div class="card-body text-center" style="background-image: url(https://i.pinimg.com/originals/f3/d3/ca/f3d3ca4665b1261f0628a4837c3ca068.gif); background-size: cover;">
-                        <h5 class="card-title" style="font-weight: bold;">Misael</h5>
-                        <p class="card-text" style="font-weight: bold;">Interests: Web Dev, Full Stack Dev, Video Game Design, Graphic Design</p>
-                        <a href="Misael.html" class="btn btn-outline-dark" style="font-weight: bold;">My Page! :)</a>
+                        <h5 class="card-title" style="font-weight: bold; margin-bottom: 2px;">Misael Bolainez</h5>
+                        <a href="https://www.linkedin.com/in/misael-bolainez/" target="_blank"><img src = "./Misael/img/linkedin.png" width="25px" height="25px" alt = "linkedin icon"/></a>
+                        <a href="https://github.com/missile720" target="_blank"><img src = "./Misael/img/github.png" width="25px" height="25px" alt = "github icon"/></a>
+                        <p class="card-text" style="font-weight: bold; margin-top: 10px;">Web Development, Full Stack, Video Game Design & Graphic Design</p>
+                        <a href="./Misael/Misael.html" target="_blank" class="btn btn-outline-dark" style="font-weight: bold;">My Page! :)</a>
                     </div>
                 </div>
             </div>
-          
+        <!-- Moon's Section -->
             <div class="col-sm"> 
-                <div class="card" style="width: 18rem;">
-                    <a href="#"><img class="card-img-top" src="./Images/moon.png" alt="Moon's profile pic Text says Hi, I'm Moon."></a>
-                    <div class="card-body">
-                        <h5 class="card-title">Moon</h5>
-                        <p class="card-text-moon">Interests: Full-stack development, mobile development, UI/UX design, graphic design, mental health awareness, self-love advocacy, and community building</p>
-                        <a href="#" class="btn btn-dark">Get to know me!</a>
+                <div class="card moon border-primary" style="width: 18rem;">
+                    <a href="#"><img class="card-img-top" src="./img/moon_bg.jpeg" alt="Moon's profile pic Text says Hi, I'm Moon."></a>
+                    <div class="card-body text-center">
+                        <h5 class="card-title moon-title mb-0">aka moonbear</h5>
+                        <span><img src="./moon/img/linkedin(5).png" alt="linkedin icon" class="mb-3 mx-1 mt-1"><img src="./moon/img/github(6).png" alt="github icon" class="mb-3 mt-1"></span>
+                        <p class="card-text-moon">Entrepreneurship, UX Design, Project Management, Full-Stack Dev,<br>Personal Development and Community Building</p>
+                        <a href="./moon/moon.html" target="_blank"><button class="moon_btn" href="./moon/moon.html">See Me Shine 🌙</button></a>
                     </div>
                 </div>
             </div>
         <!--Yadi's section  -->
-        <div class="container-yadi">
-          <div class="col-sm yadi-border">
-            <div class=" pic-backround">
-                <img class="card-img-top" src="/yadi/yadi_img/Yadi.JPG" alt="Card image cap">
-                <div class="card-body">
-                    <h5 class="card-title">Yadi</h5>
-                    <p class="card-text"><b>Intrests: </b>Full-Stack development, UI/UX design, and mobile app development</p>
-                    <a href="/yadi/yadi_personal.html" class="btn btn-light">Learn about me!</a>
-                </div>
-            </div>
+        <div class="col-sm yadi-border container-yadi">
+          <div class="card pic-backround">
+              <img class="card-img-top" src="/yadi/yadi_img/Yadi.JPG" alt="Card image cap">
+              <div class="card-body">
+                  <h5 class="card-title">Yadi</h5>
+                  <p class="card-text"><b>Interests: </b>Full-Stack development, UI/UX design, and mobile app development</p>
+                  <a href="/yadi/yadi_personal.html" target="_blank" class="btn btn-light">Learn about me!</a>
+              </div>
+          </div>
         </div>
-        </div>
+    </div>
       <!-- Row 2  -->
+      <!-- Taofeek's Card Begins -->
         <div class="row">
             <div class="col-sm">
                 <div class="card" style="width: 18rem;">
                     <img class="card-img-top" src="./img/215933875_101388439068471_7547374505342383919_n.jpg" alt="Card image cap">
-                    <div class="card-body">
+                    <div class="card-body" id="TCard_body">
                         <h5 class="card-title">Taofeek</h5>
                         <p class="card-text"> Interests: Full Stack Development and Ideation.</p>
-                        <a href="Taofeek.html" target = "_blank" rel="noopener noreferrer" class="btn btn-primary">Go somewhere</a>
+                        <div class="d-flex justify-content-between">
+                          <a href="/Taofeek/Taofeek.html" target = "_blank" rel="noopener noreferrer" class="btn btn-outline-dark" id="T_Btn">My Page</a>
+                          <a href="mailto:tab4all75@gmail.com" target = "_blank" rel="noopener noreferrer">
+                            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" id="T_mail">
+                              <rect width="40" height="40" fill="white" fill-opacity="0.01"/>
+                              <path fill-rule="evenodd" clip-rule="evenodd" d="M21.4506 6.98536L12.0001 13.5722L2.54935 6.98536V4.54927H21.4506V6.98536ZM21.4506 18.9942L16.101 12.6024L21.4506 8.87397V18.9942ZM3.43335 20.3522L9.17508 13.4918L11.557 15.1521C11.69 15.2449 11.8452 15.2912 12.0001 15.2912C12.1548 15.2912 12.31 15.2449 12.443 15.1521L14.8249 13.4918L20.5666 20.3522H3.43335ZM2.54935 8.87397L7.89899 12.6024L2.54935 18.9942V8.87397ZM22.2253 2.99989H1.77466C1.34689 2.99989 0.999969 3.34681 0.999969 3.77458V21.1269C0.999969 21.1378 1.00291 21.1479 1.00336 21.1588C1.00449 21.1866 1.00742 21.2139 1.01149 21.2414C1.0151 21.2651 1.01894 21.2886 1.02459 21.3117C1.03069 21.3367 1.03882 21.3607 1.04763 21.3851C1.05576 21.4083 1.06411 21.4314 1.0745 21.4535C1.08512 21.4763 1.09754 21.498 1.11041 21.5199C1.12351 21.5414 1.13639 21.5626 1.15107 21.5829C1.16552 21.6026 1.18133 21.6211 1.19805 21.6396C1.21589 21.6597 1.23441 21.6791 1.25428 21.6972C1.26264 21.7047 1.26874 21.7137 1.27755 21.7209C1.28297 21.7257 1.28997 21.727 1.29562 21.7315C1.35795 21.7808 1.42661 21.8212 1.50205 21.8497C1.51402 21.8542 1.52599 21.8569 1.53796 21.8607C1.61272 21.8849 1.69087 21.9014 1.77353 21.9014H1.77421H1.77443H1.77466H22.2253H22.2255H22.2258H22.2264C22.3091 21.9014 22.3872 21.8849 22.462 21.8607C22.4742 21.8569 22.4859 21.8542 22.4979 21.8497C22.5733 21.8212 22.642 21.7808 22.7041 21.7315C22.71 21.727 22.717 21.7257 22.7224 21.7209C22.7312 21.7137 22.7375 21.7047 22.7457 21.6972C22.7656 21.6791 22.7841 21.6597 22.8021 21.6396C22.8186 21.6211 22.8344 21.6026 22.8489 21.5829C22.8636 21.5626 22.8764 21.5414 22.8895 21.5199C22.9024 21.498 22.9148 21.4763 22.9255 21.4535C22.9358 21.4314 22.9442 21.4083 22.9523 21.3851C22.9609 21.3607 22.9693 21.3367 22.9751 21.3117C22.981 21.2886 22.9849 21.2651 22.9885 21.2414C22.9925 21.2139 22.9955 21.1866 22.9966 21.1588C22.9971 21.1479 23 21.1378 23 21.1269V3.77458C23 3.34681 22.6533 2.99989 22.2253 2.99989Z" fill="#121212"/>
+                              </svg>
+                          </a>
+                        
+                            
+                        </div>
+                       
                     </div>
                 </div>
             </div>
+      <!-- Taofeek's Card Ends -->
+      <!--Trish's Card Begins-->
             <div class="col-sm">
-                <div class="card" style="width: 18rem">
-                    <img class="card-img-top" src="https://www.freeiconspng.com/uploads/profile-icon-9.png" alt="Card image cap"/>
+                <div class="trish" style="width: 18rem">
+                    <img class="card-img-top" src="./Trish/trish-img.jpg" alt="Card image cap"/>
                     <div class="card-body">
-                        <h5 class="card-title">Trish</h5>
+                        <h5 class="trish-title">Trish</h5>
                         <p class="card-text">
-                            Some quick example text to build on the card title and make up the bulk of the card's content.
+                          Interests: Full Stack Web Development
                         </p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                        <a href="./Trish/trish.html" class="btn trish-btn">My Profile</a>
                     </div>
                 </div>
             </div>
+      <!--Trish's Card Ends-->
             <div class="col-sm">
                 <div class="card" style="width: 18rem">
 
                     <img class="card-img-top1 em-img" src="./Images/IMG_9623.jpg" alt="Card image cap">
                     <div class="card-body em-card">
-                        <h5 class="card-title" style="font-family: Montserrat@600">Eddie Moreno</h5>
+                        <h5 class="card-title" style="font-family: Montserrat">Eddie Moreno</h5>
                         <p class="card-text" style="font-family: Montserrat">Interest: Full Stack Web Development and Cyber Security</p>
                         <a href="/Eddie.html" class="em-btn d-flex justify-content-center">Profile Link</a>
 
@@ -123,17 +139,11 @@
         <!-- Jacky BEGIN -->
         <div class="col-sm">
           <div class="card card-me" style="width: 18rem;">
-              <img class="card-img-top pic" src="img\E5DBBCB6-FF2D-4DED-8CF3-727155806AFF.jpg" alt="Card image cap">
+              <img class="card-img-top pic" src="jacky\jm-img\Paint-splater-pic-ver_2.jpg" alt="Card image cap">
               <div class="card-body card-self">
-<<<<<<< Updated upstream
-                <h5 class="card-title">Jacqueline Martinez</h5>
-                <p class="card-text">Interests: Graphic Design, UI/UX Design, Full-Stack, and basically anything that I can try to build.</p>
-                <a href="/jacky/jacky-personal.html" target="blank" class="btn btn glow-on-hover text-center text-light">Click Me!</a>
-=======
                 <h5 class="card-title text-center">Jacqueline Martinez</h5>
                 <p class="card-text text-center">Interests: Graphic Design, UI/UX Design, Full-Stack, and anything that I can try to build.</p>
                 <a href="/jacky/jacky-personal.html" target="_blank" class="btn btn glow-on-hover text-center text-light">Click Me!</a>
->>>>>>> Stashed changes
               </div>
           </div>
         </div>
@@ -148,7 +158,7 @@
             <div class="card-body">
               <h5 class="card-titlek">Kendall Fuller</h5>
               <p class="card-textk"> Interest: Stackin: Could be Full Stackin or Paper Stackin  &#128076;&#127998 </p>
-              <a href="Kenny.html" class="btn kenny-btn">  &#127378</a>
+              <a href="Kenny/Kenny.html" target="_blank" class="btn kenny-btn">  &#127378</a>
             </div>
           </div>
         </div>
@@ -168,7 +178,7 @@
             <div class="card-body ivan">
               <h5 class="card-title ivanbio">Ivan Piceno</h5>
               <p class="card-text ivantext"> Cyber Security,Game Developer, and anything technology related </p>
-              <a href="/ivan.html" class="btn btn-primary">Learn more about me</a>
+              <a href="/ivan/ivan.html" class="btn btn-primary" target="_blank">Learn more about me</a>
             </div>
           </div>
         </div>
@@ -176,12 +186,19 @@
       <!-- Row 5  -->
       <div class="row">
         <div class="col-sm">
-          <div class="card text-white bg-primary" style="width: 18rem">
-            <img class="card-img-top" src="img/Dustin_Head_Shot.jpg" alt="Card image cap" />
-            <div class="card-body"> 
-              <h5 class="card-title text-center">Dustin</h5>
-              <p class="card-text"> <b>Interests:</b> Game Development, Graphic Design, 3d Modeling and 3d Printing </p>
-              <a href="#" class="btn btn-secondary">Learn more about me</a>
+          <div class="card text-white bg-primary" id="dustin-cont" style="width: 18rem">
+            <img class="dustin-img" src="img/Dustin_Head_Shot.jpg" alt="Card image cap" />
+            
+            <div class="card-body text-center"> 
+              <a class="dustin-link" target="_blank" href="https://www.linkedin.com/in/dustin-daves-0aab1118b/">
+                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="white" class="bi bi-linkedin" viewBox="0 0 16 16">
+                <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"/>
+              </svg></a>
+              <div class="card-body-bg">
+                <h5 class="card-title text-center">Dustin</h5>
+                <p class="card-text text-center"> <b>Interests:</b> Game Development, Graphic Design, 3D Modeling and 3D Printing </p>
+                <a href="/dustin/dustin.html" target="_blank" class="btn btn-secondary text-center" id="dustin-button">Enter the Rabbit Hole</a>
+              </div>
             </div>
             
           </div>
@@ -194,19 +211,19 @@
                     <p class="card-text">
                         Some quick example text to build on the card title and make up the bulk of the card's content.
                     </p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                    <a href="#" class="btn btn-secondary">Go somewhere</a>
                 </div>
             </div>
         </div>
         <div class="col-sm">
-          <div class="card" style="width: 18rem">
-              <img class="card-img-top" src="https://www.freeiconspng.com/uploads/profile-icon-9.png" alt="Card image cap"/>
+          <div class="sonic" style="width: 18rem">
+              <img class="card-img-top" src="./Sonic/sonic-img...jpg" alt="Card image cap"/>
               <div class="card-body">
-                  <h5 class="card-title">Sonic</h5>
+                  <h5 class="sonic-title">Sonic</h5>
                   <p class="card-text">
-                      Some quick example text to build on the card title and make up the bulk of the card's content.
+                      <b>Interests: </b>Supervising Zoom Calls, Demanding Attention, Sleeping, and Eating 
                   </p>
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                  <a href="./Sonic/sonic.html" class="btn btn-sonic">Send Me Pets</a>
               </div>
           </div>
       </div>
