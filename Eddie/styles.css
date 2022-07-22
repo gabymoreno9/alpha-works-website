@@ -1,0 +1,118 @@
+.em-body{
+    background-color: white;
+  }
+  
+  .em-logo img{
+    height: 275px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 35px;
+    box-shadow: 0px 0px 7px black;
+    border: solid black 3px;
+    border-radius: 7px;
+  }
+  
+  .underline{
+    margin: 0 auto;
+    width: 458px;
+    height: 10px;
+    background: #4801FF;
+    border-radius: 50px;
+    border: 1px solid #000000;
+    transform: matrix(1, 0, 0, -1, 0, 0);
+  }
+  
+  /* old start */
+
+  .main-section-bg{
+    box-sizing: border-box;
+    position: absolute;
+    width: 100%;
+    height: 1500px;
+    left: 0px;
+    top: 525px;
+    background: #202226;
+    border: 1px solid #000000;
+  }
+  
+  .bio{
+    position: absolute;
+    width: 406px;
+    height: 104px;
+    left: 222px;
+    top: 100px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 97px;
+    color: #CCCCCC;
+  }
+  
+  .line1{
+    position: absolute;
+    width: 1100px;
+    height: 4px;
+    left: 1px;
+    border: 1px solid #BBBBBB;
+    transform: rotate(-0.39deg);
+  }
+  
+  .bio-info{
+    /* color: white;
+    font-size: 22px; */
+    position: absolute;
+    width: 535px;
+    height: 349px;
+    left: 475px;
+    top: 150px;
+  
+    font-family: 'Titillium Web';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+  
+    color: #FFFFFF;
+  }
+  /* old end */
+  
+
+  .bio-container{
+    display: flex;
+    justify-content: center;
+  
+    width: 98vw;
+    flex-direction: row;
+  }
+  .about-section{
+    background: #000;
+    width: 100%;
+    height: 1000px;
+    margin-top: 50px;
+  }
+  
+  .about-me{
+    color: white;
+    margin-left: 195px;
+    padding-top: 50px;
+  }
+
+  .line2{
+    margin: 0 auto;
+    /* width: 1100px; */
+    transform: rotate(-0.39deg);
+    margin-bottom: 50px;
+    border-top: 1px solid #BBBBBB;
+  }
+  
+  .eddie-img{
+    height: 315px;
+  }
+  
+  .about-text{
+    width: 50%;
+    margin-left: 50px;
+    padding: 65px;
+  }
+  
+  
