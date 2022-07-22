@@ -91,7 +91,7 @@
   cursor: pointer;
   position: relative;
   z-index: 0;
-
+  width: 245px;
 }
 
 .glow-on-hover:before {
@@ -135,7 +135,7 @@
   position: absolute;
   width: 100%;
   height: 100%;
-  background-color: rgba(43, 43, 43, 0.87);
+  background-color: rgba(0, 0, 0, 0.87);
   left: 0;
   top: 0;
   border-radius: 5px;
