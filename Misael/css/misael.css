@@ -818,7 +818,7 @@ body{
 .nameHero{
     font-family: 'Rubik Moonrocks', cursive;
     font-size: 80px;
-    color: white;
+    color: rgba(33,168,160,0.9864320728291317);
     margin-top: 200px;
     margin-bottom: 10px;
 }
@@ -833,10 +833,14 @@ body{
     font-family: 'Chakra Petch', sans-serif;
     font-size: 80px;
     color: white;
+    display: flex;
 }
-
+#textIdentity{
+    display: inline-block;
+}
 #textCursor {
-    animation: blink 1.1s linear infinite;
+    display: inline-block;
+    animation: blink 1.2s linear infinite;
 }
 
 @keyframes blink {
@@ -848,7 +852,7 @@ body{
         opacity: 1;
     }
 
-    60%{
+    50%{
         opacity: 0;
     }
 

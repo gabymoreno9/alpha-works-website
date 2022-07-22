@@ -1,3 +1,15 @@
+//array of objects used for text animation
+const words = [
+    {text: "Developer"},
+    {text: "Programmer"},
+    {text: "Gamer"},
+    {text: "Artist"},
+
+];
+
+//initialization of the timer counter
+let timer = 0;
+
 //loops through and initializes the number of pieces in the html
 for(let i = 0; i < 100; i++){
     document.querySelector(".logo-container").innerHTML += `
@@ -6,11 +18,12 @@ for(let i = 0; i < 100; i++){
 
 //runs rotate function at start of page
 rotate();
+//runs textAnimation function at start of page
+textAnimation(words);
 
 //rotate function
 function rotate(){
     //selects all pieces
-    console.log("rotatetest")
     let logoPortion = document.querySelectorAll(".rotatePiece");
 
     //initial origin of first piece
@@ -35,6 +48,58 @@ function rotate(){
     }
 }
 
+//function that takes in the words
+async function textAnimation(words){
+    let i = 0;
+
+    //loops through words array
+    while(true){
+        //stores each word
+        let word = words[i].text;
+        //splits word into an array of letters
+        let wordArray = word.split("");
+
+        //loops through letters array
+        for(let j = 0; j < wordArray.length; j++){
+            //waits for 150ms between each letter
+            await sleep(100);
+            //adds letter to document
+            document.getElementById("textIdentity").innerHTML += wordArray[j];
+        }
+        //waits 1s to allow user to read word
+        await sleep(1000);
+        //delete function for word executes after waiting for the previous line
+        await deleteLetter();
+        //increment i
+        i++;
+        //checks to see if i is at end of array of objects
+        if(i >= words.length) {
+            //resets i to repeat array of objects
+            i = 0;
+        }
+    }
+}
+
+async function deleteLetter(){
+        //grabs current word
+        let deleteWord = document.getElementById("textIdentity").innerHTML;
+        //splits word into array of letters
+        let deleteLetters = deleteWord.split("");
+        //while deleteLetters still contains letters it loops
+        while(deleteLetters.length > 0){
+            await sleep(100);
+            //pops the last letter
+            deleteLetters.pop();
+            //adds letters as a string to the dom
+            document.getElementById("textIdentity").innerHTML = deleteLetters.join("");
+        }
+}
+
+//function that pauses based on time parameter
+function sleep(ms) {
+    return new Promise(resolve => setTimeout(resolve, ms));
+}
+
 //executes the dom for events when mouse moves in the nav bar
 document.querySelector(".mb-nav").addEventListener("mouseover", navMouseOver);
 
@@ -44,7 +109,6 @@ function navMouseOver(event){
     var y = event.clientY;
     //check to make sure the mouse is physically within the nav
     if(y < 108){
-        console.log("intest")
         let logoPortion = document.querySelectorAll(".logoPortion");
     
         let leftCounter = 0;
@@ -89,7 +153,6 @@ function navMouseOver(event){
 
 //when mouse moves outside nav bar
 function navMouseOut(){
-    console.log("outtest")
     let logoPortion = document.querySelectorAll(".logoPortion");
     for(let i = 0; i < logoPortion.length; i++){
         logoPortion[i].style.left = null;
