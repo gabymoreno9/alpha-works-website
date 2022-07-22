@@ -862,7 +862,41 @@ body{
 }
 
 .container-body{
-    background-color: aquamarine;
+    background: rgb(0,0,0);
+    background: linear-gradient(0deg, rgba(0,0,0,1) 6%, rgba(33,131,168,0.9864320728291317) 80%, rgba(255,255,255,0.9864320728291317) 100%);
+    display: flex;
+    justify-content: center;
+}
+.about{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 80vw;
+    height: 100vh;
+}
+
+.aboutSection, .skillSection{
+    text-align: center;
+    color: white;
+    background-color: rgba(33,131,168,0.9864320728291317);
+    padding: 10px;
+    border: solid 3px black;
+}
+
+.aboutSection{
+    width: 500px;
+    height: 500px;
+    border-radius: 100%;
+}
+
+.aboutSection h1, .skillSection h1{
+    font-size: 45px;
+}
+
+.aboutSection p{
+    font-size: 20px;
 }
 
 footer{
