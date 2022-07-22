@@ -818,20 +818,47 @@ body{
 .nameHero{
     font-family: 'Rubik Moonrocks', cursive;
     font-size: 80px;
-    color: white;
+    color: rgba(33,168,160,0.9864320728291317);
     margin-top: 200px;
     margin-bottom: 10px;
 }
 
 .hero-image h2{
+    font-size: 30px;
     color: white;
     margin-top: 0;
 }
 
 .textHero {
-    font-family: 'Rubik Moonrocks', cursive;
+    font-family: 'Chakra Petch', sans-serif;
     font-size: 80px;
     color: white;
+    display: flex;
+}
+#textIdentity{
+    display: inline-block;
+}
+#textCursor {
+    display: inline-block;
+    animation: blink 1.2s linear infinite;
+}
+
+@keyframes blink {
+    0%{
+        opacity: 1;
+    }    
+
+    40%{
+        opacity: 1;
+    }
+
+    50%{
+        opacity: 0;
+    }
+
+    100%{
+        opacity: 0;
+    }
 }
 
 .container-body{
