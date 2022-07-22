@@ -824,14 +824,37 @@ body{
 }
 
 .hero-image h2{
+    font-size: 30px;
     color: white;
     margin-top: 0;
 }
 
 .textHero {
-    font-family: 'Rubik Moonrocks', cursive;
+    font-family: 'Chakra Petch', sans-serif;
     font-size: 80px;
     color: white;
+}
+
+#textCursor {
+    animation: blink 1.1s linear infinite;
+}
+
+@keyframes blink {
+    0%{
+        opacity: 1;
+    }    
+
+    40%{
+        opacity: 1;
+    }
+
+    60%{
+        opacity: 0;
+    }
+
+    100%{
+        opacity: 0;
+    }
 }
 
 .container-body{
