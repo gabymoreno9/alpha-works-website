@@ -880,22 +880,30 @@ body{
 .aboutSection, .skillSection{
     text-align: center;
     color: white;
-    background-color: rgba(33,131,168,0.9864320728291317);
     padding: 10px;
-    border: solid 3px black;
+    background-color: rgba(0, 0, 0, 0.1);
+    
 }
 
 .aboutSection{
     width: 500px;
     height: 500px;
-    border-radius: 100%;
 }
 
 .aboutSection h1, .skillSection h1{
     font-size: 45px;
+    margin-bottom: 10px;
 }
 
 .aboutSection p{
+    font-size: 20px;
+}
+
+table{
+    border-spacing: 10px;
+}
+
+.tableText{
     font-size: 20px;
 }
 
