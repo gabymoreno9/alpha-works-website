@@ -101,7 +101,7 @@ function sleep(ms) {
 }
 
 //executes the dom for events when mouse moves in the nav bar
-document.querySelector(".mb-nav").addEventListener("mouseover", navMouseOver);
+document.querySelector(".mb-nav").addEventListener("mouseenter", navMouseOver);
 
 //when mouse moves inside nav bar
 function navMouseOver(event){
@@ -146,13 +146,18 @@ function navMouseOver(event){
             //sets y-axis final postion for piece after transition
             logoPortion[i].style.top = topCounter + "px";
         }
+        //adds href to link once animation starts
+        document.querySelector(".navHome").href = "../../index.html";
         //executes when mouse moves outside nav bar
-        document.querySelector(".mb-nav").addEventListener("mouseout", navMouseOut);
+        document.querySelector(".mb-nav").addEventListener("mouseleave", navMouseOut);
     }
 }
 
 //when mouse moves outside nav bar
 function navMouseOut(){
+    //removes href so that the pieces don't link to home page
+    document.querySelector(".navHome").removeAttribute("href");
+
     let logoPortion = document.querySelectorAll(".logoPortion");
     for(let i = 0; i < logoPortion.length; i++){
         logoPortion[i].style.left = null;
@@ -160,6 +165,34 @@ function navMouseOut(){
     }
     rotate();
     //removes event listener since already outside nav bar
-    document.querySelector(".mb-nav").removeEventListener("mouseout", navMouseOut);
+    document.querySelector(".mb-nav").removeEventListener("mouseleave", navMouseOut);
 }
 
+//select all text in table
+let table = document.querySelectorAll(".tableText");
+
+//loops through list and adds event listeners to each text
+for(let i = 0; i < table.length; i++){
+    table[i].addEventListener('mouseenter',hoverSkills);
+}
+
+//function that runs when mouse enters element
+function hoverSkills(event){
+    //randomizes number for each part of the color
+    let red = Math.floor(Math.random() * 256);
+    let green = Math.floor(Math.random() * 256);
+    let blue = Math.floor(Math.random() * 256);
+
+    //sets the color to randomized combination
+    event.target.style.color = `rgba(${red}, ${green}, ${blue})`;
+    event.target.classList.add("expand");
+    //adds event listener for mouse leaving
+    event.target.addEventListener('mouseleave',offSkills);
+}
+
+//function runs when mouse leaves element
+function offSkills(event){
+    //removes color
+    event.target.style.color = null;
+    event.target.classList.remove("expand");
+}
