@@ -101,7 +101,7 @@ function sleep(ms) {
 }
 
 //executes the dom for events when mouse moves in the nav bar
-document.querySelector(".mb-nav").addEventListener("mouseover", navMouseOver);
+document.querySelector(".mb-nav").addEventListener("mouseenter", navMouseOver);
 
 //when mouse moves inside nav bar
 function navMouseOver(event){
@@ -146,13 +146,18 @@ function navMouseOver(event){
             //sets y-axis final postion for piece after transition
             logoPortion[i].style.top = topCounter + "px";
         }
+        //adds href to link once animation starts
+        document.querySelector(".navHome").href = "../../index.html";
         //executes when mouse moves outside nav bar
-        document.querySelector(".mb-nav").addEventListener("mouseout", navMouseOut);
+        document.querySelector(".mb-nav").addEventListener("mouseleave", navMouseOut);
     }
 }
 
 //when mouse moves outside nav bar
 function navMouseOut(){
+    //removes href so that the pieces don't link to home page
+    document.querySelector(".navHome").removeAttribute("href");
+
     let logoPortion = document.querySelectorAll(".logoPortion");
     for(let i = 0; i < logoPortion.length; i++){
         logoPortion[i].style.left = null;
