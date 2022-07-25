@@ -165,6 +165,34 @@ function navMouseOut(){
     }
     rotate();
     //removes event listener since already outside nav bar
-    document.querySelector(".mb-nav").removeEventListener("mouseout", navMouseOut);
+    document.querySelector(".mb-nav").removeEventListener("mouseleave", navMouseOut);
 }
 
+//select all text in table
+let table = document.querySelectorAll(".tableText");
+
+//loops through list and adds event listeners to each text
+for(let i = 0; i < table.length; i++){
+    table[i].addEventListener('mouseenter',hoverSkills);
+}
+
+//function that runs when mouse enters element
+function hoverSkills(event){
+    //randomizes number for each part of the color
+    let red = Math.floor(Math.random() * 256);
+    let green = Math.floor(Math.random() * 256);
+    let blue = Math.floor(Math.random() * 256);
+
+    //sets the color to randomized combination
+    event.target.style.color = `rgba(${red}, ${green}, ${blue})`;
+    event.target.classList.add("expand");
+    //adds event listener for mouse leaving
+    event.target.addEventListener('mouseleave',offSkills);
+}
+
+//function runs when mouse leaves element
+function offSkills(event){
+    //removes color
+    event.target.style.color = null;
+    event.target.classList.remove("expand");
+}

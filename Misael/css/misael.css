@@ -813,7 +813,7 @@ body{
     align-items: center;
     flex-direction: column;
     background: rgb(0,0,0);
-    background: linear-gradient(180deg, rgba(0,0,0,1) 60%, rgba(33,168,160,0.9864320728291317) 80%, rgba(255,255,255,1) 100%);
+    background: linear-gradient(180deg, rgba(0,0,0,1) 60%, rgba(33,168,160,0.9864320728291317) 100%);
 }
 
 .nameHero{
@@ -864,7 +864,7 @@ body{
 
 .container-body{
     background: rgb(0,0,0);
-    background: linear-gradient(0deg, rgba(0,0,0,1) 6%, rgba(33,131,168,0.9864320728291317) 80%, rgba(255,255,255,0.9864320728291317) 100%);
+    background: linear-gradient(0deg, rgba(33,131,168,0.9864320728291317) 40%, rgba(33,168,160,0.9864320728291317) 80%);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -895,6 +895,8 @@ body{
 .aboutSection h1, .skillSection h1{
     font-size: 45px;
     margin-bottom: 10px;
+    font-family: 'Rubik Moonrocks', cursive;
+    font-weight: 100;
 }
 
 .aboutSection p{
@@ -907,6 +909,33 @@ table{
 
 .tableText{
     font-size: 20px;
+    font-weight: bold;
+}
+
+.jump{
+    animation: jump .5s;
+}
+
+@keyframes jump {
+    0%   { transform: translateY(0); }
+    25%  { transform: translateY(-10px); }
+    50%  { transform: translateY(0px); }
+    70%  { transform: translateY(-5px); }
+    85%  { transform: translateY(0px); }
+    100%  { transform: translateY(-2px); }
+}
+
+.expand{
+    animation: expand .5s forwards;
+}
+
+@keyframes expand {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.5);
+    }
 }
 
 .projectsBody{
