@@ -1,5 +1,6 @@
 html{
     height: 100vh;
+    scroll-behavior: smooth;
 }
 
 body{
@@ -12,6 +13,29 @@ body{
     margin: 8px;
     position: fixed;
     display: flex;
+    align-items: center;
+}
+
+.navButtons{
+    display: flex;
+    position: fixed;
+    right: 3vw;
+}
+
+.navWords{
+    text-decoration: none;
+    color: white;
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: 20px;
+    margin: 6px;
+}
+
+.navWords:hover{
+    color: rgba(33,168,160,0.9864320728291317);
+}
+
+.navWords p {
+    margin: 0;
 }
 
 .logo-container{
@@ -862,7 +886,7 @@ body{
     }
 }
 
-.container-body{
+.aboutBody{
     background: rgb(0,0,0);
     background: linear-gradient(0deg, rgba(33,131,168,0.9864320728291317) 40%, rgba(33,168,160,0.9864320728291317) 80%);
     display: flex;
@@ -939,7 +963,8 @@ table{
 }
 
 .projectsBody{
-    background-color: black;
+    background: rgb(0,0,0);
+    background: linear-gradient(0deg, rgba(11, 74, 96, 0.986) 20%, rgba(33,131,168,0.9864320728291317) 80%);
     display: flex;
     flex-direction: column;
     align-items: center;
