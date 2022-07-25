@@ -910,9 +910,14 @@ table{
 }
 
 .projectsBody{
+    background-color: black;
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.projects{
+    color: white;
 }
 
 footer{
