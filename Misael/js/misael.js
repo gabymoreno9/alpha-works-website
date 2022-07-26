@@ -196,3 +196,9 @@ function offSkills(event){
     event.target.style.color = null;
     event.target.classList.remove("expand");
 }
+
+document.querySelector(".myName").addEventListener("click", mouseChange);
+
+function mouseChange(){
+    document.body.classList.add("cursor");
+}

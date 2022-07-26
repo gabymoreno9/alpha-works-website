@@ -927,6 +927,15 @@ body{
     font-size: 20px;
 }
 
+.myName:hover{
+    color: rgba(33,168,160,0.9864320728291317);
+    cursor: pointer;
+}
+
+.cursor{
+    cursor: url("../img/122924.png"),auto;
+}
+
 table{
     border-spacing: 10px;
 }
