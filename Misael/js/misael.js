@@ -200,5 +200,5 @@ function offSkills(event){
 document.querySelector(".myName").addEventListener("click", mouseChange);
 
 function mouseChange(){
-    document.body.classList.add("cursor");
+    document.body.classList.toggle("cursor");
 }
