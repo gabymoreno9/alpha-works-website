@@ -196,3 +196,40 @@ function offSkills(event){
     event.target.style.color = null;
     event.target.classList.remove("expand");
 }
+
+document.querySelector(".myName").addEventListener("click", mouseChange);
+
+function mouseChange(){
+    document.body.classList.toggle("cursor");
+}
+
+let projects = document.querySelectorAll(".project");
+
+for(let i = 0; i < projects.length; i++){
+    projects[i].addEventListener('mouseenter',hoverProjects);
+}
+
+function hoverProjects(event){
+    //hides two elements
+    event.target.querySelector(".projectImg").classList.add("hidden");
+    event.target.querySelector(".projectName").classList.add("hidden");
+
+    //makes element visible
+    event.target.querySelector(".projectSummary").classList.remove("hidden");
+    event.target.querySelector(".projectIcons").classList.remove("hidden");
+
+    event.target.addEventListener('mouseleave',offProjects);
+}
+
+function offProjects(event){
+    //makes two elements visible
+    event.target.querySelector(".projectImg").classList.remove("hidden");
+    event.target.querySelector(".projectName").classList.remove("hidden");
+    
+
+    //hides element
+    event.target.querySelector(".projectSummary").classList.add("hidden");
+    event.target.querySelector(".projectIcons").classList.add("hidden");
+
+    event.target.removeEventListener('mouseleave',offProjects);
+}

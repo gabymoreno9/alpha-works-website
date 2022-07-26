@@ -1,5 +1,6 @@
 html{
     height: 100vh;
+    scroll-behavior: smooth;
 }
 
 body{
@@ -7,11 +8,35 @@ body{
 }
 
 .mb-nav{
-    height: 100px;
-    min-width: calc(100vw - 16px);
     margin: 8px;
+}
+.mb-nav{
+    height: 100px;
+    min-width: calc(100vw - 22px);
     position: fixed;
     display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navButtons{
+    display: flex;
+}
+
+.navWords{
+    text-decoration: none;
+    color: white;
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: 20px;
+    margin: 6px;
+}
+
+.navWords:hover{
+    color: rgba(33,168,160,0.9864320728291317);
+}
+
+.navWords p {
+    margin: 0;
 }
 
 .logo-container{
@@ -822,6 +847,7 @@ body{
     color: rgba(33,168,160,0.9864320728291317);
     margin-top: 200px;
     margin-bottom: 10px;
+    text-align: center;
 }
 
 .hero-image h2{
@@ -836,6 +862,7 @@ body{
     color: white;
     display: flex;
 }
+
 #textIdentity{
     display: inline-block;
 }
@@ -862,7 +889,7 @@ body{
     }
 }
 
-.container-body{
+.aboutBody{
     background: rgb(0,0,0);
     background: linear-gradient(0deg, rgba(33,131,168,0.9864320728291317) 40%, rgba(33,168,160,0.9864320728291317) 80%);
     display: flex;
@@ -872,11 +899,13 @@ body{
 .about, .projects{
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
     align-items: center;
+    align-content: space-evenly;
     margin-top: 40px;
     margin-bottom: 40px;
     width: 80vw;
-    height: 100vh;
+    min-height: 100vh;
 }
 
 .aboutSection, .skillSection{
@@ -889,7 +918,6 @@ body{
 
 .aboutSection{
     width: 500px;
-    height: 500px;
 }
 
 .aboutSection h1, .skillSection h1{
@@ -903,6 +931,15 @@ body{
     font-size: 20px;
 }
 
+.myName:hover{
+    color: rgba(33,168,160,0.9864320728291317);
+    cursor: pointer;
+}
+
+.cursor{
+    cursor: url("../img/122924.png"),auto;
+}
+
 table{
     border-spacing: 10px;
 }
@@ -910,19 +947,6 @@ table{
 .tableText{
     font-size: 20px;
     font-weight: bold;
-}
-
-.jump{
-    animation: jump .5s;
-}
-
-@keyframes jump {
-    0%   { transform: translateY(0); }
-    25%  { transform: translateY(-10px); }
-    50%  { transform: translateY(0px); }
-    70%  { transform: translateY(-5px); }
-    85%  { transform: translateY(0px); }
-    100%  { transform: translateY(-2px); }
 }
 
 .expand{
@@ -939,14 +963,71 @@ table{
 }
 
 .projectsBody{
-    background-color: black;
+    background: rgb(0,0,0);
+    background: linear-gradient(0deg, rgba(11, 74, 96, 0.986) 20%, rgba(33,131,168,0.9864320728291317) 80%);
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.projects{
+.linkProject{
+    text-decoration: none;
     color: white;
+    font-family: 'Chakra Petch', sans-serif;
+}
+
+.project{
+    background-color: white;
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+    transition: all .1s;
+    position: relative;
+    overflow: hidden;
+}
+
+
+.project h1{
+    position: relative;
+    transition: all .1s;
+}
+
+.project h2{
+    position: absolute;
+    transition: all .1s;
+}
+
+.projectImg{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    opacity: .75;
+}
+
+.projectIcons{
+    position: absolute;
+    bottom: 10%;
+}
+
+.project:nth-child(1){
+    background-color: rgba(33,168,160,0.9864320728291317);
+}
+
+.project:hover{
+    transform: scale(1.1);
+}
+
+.hidden{
+    opacity: 0;
 }
 
 footer{
