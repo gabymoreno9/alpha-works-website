@@ -1065,5 +1065,56 @@ table{
 }
 
 footer{
-    background-color: blueviolet;
+    background: rgb(0,0,0);
+    background: linear-gradient(180deg, rgba(11, 74, 96, 0.986) 0%, rgba(0, 0, 0) 100%);
+    min-height: 20vh;
+}
+
+footer h1{
+    font-family: 'Rubik Moonrocks', cursive;
+    font-size: 45px;
+    color: white;
+    text-align: center;
+    margin: 0px;
+    padding-top: 10px;
+    margin-bottom: 25px;
+}
+
+.iconLinks{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.iconLinks a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    transition: all .1s;
+    margin: 15px;
+}
+
+.iconLinks a:hover{
+    transform: scale(1.1);
+}
+
+.iconName{
+    margin: 0px;
+}
+
+.scrollTop{
+    display: flex;
+    margin: 5px;
+    justify-content: center;
+    transition: all .1s;
+}
+
+.scrollTop img:hover{
+    transform: scale(1.1);
+}
+
+.footerNote{
+    color: white;
+    font-size: 20px;
+    text-align: center;
 }
