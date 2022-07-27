@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Source+Sans+Pro:wght@300&family=Yeseva+One&display=swap');
+
 .row {
   margin-bottom: 40px;
 }
@@ -51,10 +53,9 @@
 }
 
 #bold {
-  /* border: 2px solid rgb(11, 204, 21); */
-  border: 2px solid black;
+  
   border-style: groove;
-  box-shadow: -1px 1px 20px rgba(255, 0, 0);
+  box-shadow: -1px 5px 33px rgb(0, 0, 0);
 }
 
 .card-text-moon {
@@ -64,8 +65,8 @@
 
 /* Jacky CSS */
 .card-me:hover {
-  border-color: rgb(195, 204, 231);
-  box-shadow: 0px 0px 7px 4px rgba(91, 100, 107, 0.527);
+  border-color: rgba(99, 0, 108, 0.738);
+  box-shadow: 0px 0px 20px 4px rgba(152, 0, 166, 0.669);
   position: relative;
   animation: rotate 4s infinite ease-in-out;
 }
@@ -90,7 +91,7 @@
   cursor: pointer;
   position: relative;
   z-index: 0;
-
+  width: 245px;
 }
 
 .glow-on-hover:before {
@@ -134,7 +135,7 @@
   position: absolute;
   width: 100%;
   height: 100%;
-  background-color: rgba(43, 43, 43, 0.87);
+  background-color: rgba(0, 0, 0, 0.87);
   left: 0;
   top: 0;
   border-radius: 5px;
@@ -271,7 +272,7 @@ background-size: 400%;
   color: white;
 }
 
-.container-yadi .card{
+.container-yadi .card {
   border-radius: 5%;
   background: rgb(240, 240, 251);
   box-shadow: 10px 40px 45px 10px rgba(0, 0, 0, 0.2);
@@ -284,17 +285,15 @@ background-size: 400%;
 .trish {
   background-color: red;
   background-image:
-    linear-gradient(
-      to right, 
-      rgba(226, 12, 208, 0.932), 
-      #2143afde, 
-      rgba(77, 8, 122, 0.904), 
-      rgba(12, 150, 104, 0.877)
-    );
+    linear-gradient(to right,
+      rgba(226, 12, 208, 0.932),
+      #2143afde,
+      rgba(77, 8, 122, 0.904),
+      rgba(12, 150, 104, 0.877));
 
-  font-family:Verdana, Geneva, Tahoma, sans-serif;
-  color: rgba(253, 250, 250, 0.897); 
-  font-size: 17px; 
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgba(253, 250, 250, 0.897);
+  font-size: 17px;
 }
 
 .trish-title {
@@ -302,7 +301,7 @@ background-size: 400%;
 }
 
 .trish-btn {
-  color: rgba(7, 25, 180, 0.877); 
+  color: rgba(7, 25, 180, 0.877);
   background-color: rgba(10, 243, 224, 0.932);
 }
 
@@ -310,6 +309,7 @@ background-size: 400%;
   color: rgba(10, 243, 224, 0.932);
   background-color: rgba(7, 25, 180, 0.877)
 }
+
 /* Trish's CSS Ends */
 
 
@@ -344,25 +344,8 @@ background-size: 400%;
   background-color: white;
 }
 
-.em-logo img{
-    height: 275px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 35px;
-    box-shadow: 0px 0px 7px black;
-    border: solid black 3px;
-    border-radius: 7px;
-}
 
-.underline{
-    margin: 0 auto;
-    width: 458px;
-    height: 10px;
-    background: #4801FF;
-    border-radius: 50px;
-    border: 1px solid #000000;
-    transform: matrix(1, 0, 0, -1, 0, 0);
-}
+
 
 /* Eddie's CSS End */
 
@@ -373,7 +356,7 @@ background-size: 400%;
   border-top-right-radius: 145px;
   border: 4px solid black;
   background-image: url("/dustin/img/techBG.gif");
-  background-size: 40%;
+  background-size: 80%;
   position: relative;
 }
 
@@ -385,12 +368,113 @@ background-size: 400%;
 }
 
 #dustin-button {
+  z-index: 3;
   background-color: black;
+  background-repeat: no-repeat;
   border-radius: 15px;
+  height: 38px;
+  width: 177.3px;
+  /* position: absolute;
+  top: 90%;
+  left: 10%;
+  right: 0;
+  bottom: 0; */
+  text-align: center;
+  
+}
+
+#dustin-button:hover {
+  /* animation-name: blackhole;
+  animation-duration: 1.5s;
+  animation-timing-function: ease-in-out;
+  animation-delay: 0;
+  animation-play-state: running;
+  animation-fill-mode: forwards; */
+
+  animation:
+    animateDustinBG 3s ease-in 0s 1 forwards,
+    blackhole 1.5s ease-in-out 0s 1 forwards;
+      
+}
+#dustin-button .text{
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+
+}
+
+@keyframes blackhole {
+  0% {
+    border-radius: 15px;
+    height: 38px;
+    width: 177.3px;
+    font-size: 1rem;
+    
+    opacity: 1;
+  }
+  
+  50% {
+    font-size: 0rem;
+    border-radius: 25%;
+  }
+  100% {
+    font-size: 0rem;
+    border-radius: 50%;
+    height: 75px;
+    width: 75px;
+    opacity: 1;
+  }
+}
+
+@keyframes animateDustinBG {
+  0% {
+    background: radial-gradient(circle, rgb(0, 0, 0) 0%,rgb(0, 0, 0) 2%, rgb(0, 0, 0) 5%, rgb(0, 0, 0) 100%);
+    background-position: 50% 0;
+    background-size: 1%;
+  }
+  20%{
+    background-size: 1%;
+    background: radial-gradient(circle, rgb(0, 0, 0) 0%,rgb(255, 255, 255) 2%, rgb(0, 0, 0) 5%, rgb(0, 0, 0) 100%);
+    background-position: 50% 0;
+  }
+  50% {
+    background-position: 50% 0;
+    /* background: radial-gradient(circle, rgb(0, 0, 0) 0%,rgb(255, 255, 255) 2%, rgb(0, 0, 0) 5%, rgb(0, 0, 0) 100%); */
+    background-size: 200%;
+  } 
+  85%{
+    transform: scaleY(100%);
+    /* background-size: 200%; */
+  }
+  86%{
+    /* background-size: 200% ; */
+  } 
+  95%{
+    background: radial-gradient(circle, rgb(0, 0, 0) 0%,rgb(255, 255, 255) 2%, rgb(0, 0, 0) 5%, rgb(0, 0, 0) 100%);
+    background-position: 50% 0;
+    background-size: 2000%;
+    height: 75px;
+    transform: scaleY(1%);
+    /* background-size: 100% 1000%; */
+  }
+  96%{
+    background: radial-gradient(circle, rgb(0, 0, 0) 5%, rgb(0,0,0)8%, rgb(0,0,205) 9%, rgb(0,0,255) 25%, rgb(255, 255, 255) 26%, rgb(255,255,255)45%, rgb(0, 0, 0) 99%, rgb(0, 0, 0) 100%);
+  }
+  98%{
+    transform: scaleY(100%);
+    
+  }
+  100% {
+    background: radial-gradient(circle, rgb(0, 0, 0) 5%, rgb(0,0,0)8%, rgb(0,0,205) 9%, rgb(0,0,255) 25%, rgb(255, 255, 255) 26%, rgb(255,255,255)45%, rgb(0, 0, 0) 99%, rgb(0, 0, 0) 100%);
+    background-position: 50% 0;
+    background-size: 100%;
+    height: 75px;
+  }
 }
 
 #dustin-cont .card-text {
- text-shadow: 1px 1px 4px black;
+  text-shadow: 1px 1px 4px black;
 }
 
 #dustin-cont .card-body::before {
@@ -410,19 +494,34 @@ background-size: 400%;
   position: relative;
 }
 
+.dustin-link {
+  position: absolute;
+  z-index: 2;
+  width: 25px;
+  height: 25px;
+  top: 240px;
+  left: 10px;
+  background-color: blue;
+  border-radius: 15px;
+}
+
+.dustin-link svg {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+
 /* End Dustin CSS */
 
 /*Sonic's CSS Begins*/
 .sonic {
   background-color: red;
   background-image:
-    linear-gradient(
-      to left, 
-      rgba(19, 172, 26, 0.829), 
-      #a11a1ad0, 
-      rgba(11, 21, 170, 0.836)
-    );
-  font-family:Verdana, Geneva, Tahoma, sans-serif;
+    linear-gradient(to left,
+      rgba(19, 172, 26, 0.829),
+      #a11a1ad0,
+      rgba(11, 21, 170, 0.836));
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: rgb(240, 233, 233);
 }
 
@@ -431,8 +530,8 @@ background-size: 400%;
 }
 
 .btn-sonic {
-  color:#0886cfc9;
-  background-color: rgb(240, 233, 233) ;
+  color: #0886cfc9;
+  background-color: rgb(240, 233, 233);
 }
 
 .btn-sonic:hover {
@@ -441,3 +540,92 @@ background-size: 400%;
 }
 /*Sonic's CSS Ends*/
 
+/* Taofeek's CSS */
+#TCard_body {
+  background: #5A3F37;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #2C7744, #5A3F37);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #2C7744, #5A3F37); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+#T_Btn{
+  background-color: #000000;
+  color: white;
+  box-shadow: 0px 0px 7px 4px white;
+}
+
+
+#T_Btn:active{
+ background-color: #00ffd533;
+}
+
+#T_mail:active{
+  background-color: #00ffd533;
+}
+#T_mail {
+  background-color: #555857;
+  box-shadow: 0px 0px 4px 4px white;
+}
+
+/* Taofeek's CSS Ends */
+
+/* Moon's CSS Starts */
+.moon_btn {
+  border: none;
+  padding: 5px;
+  background: rgb(9,46,168);
+  background: linear-gradient(90deg, rgba(9,46,168,1) 0%, rgba(9,177,154,1) 100%); 
+  color: white;
+  font-family: "Yeseva One", cursive;
+  font-size: 1em;
+  font-weight: light;
+  letter-spacing: 1px;
+  text-transform: lowercase;
+  cursor: pointer;
+  position: relative;
+  width: 75%;
+}
+
+.moon_btn:before {
+  content: "";
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  top: -5px;
+  left: -5px;
+  border-top: 2px solid #092ea8;
+  border-left: 2px solid #09b19a;
+  transition: all 0.25s;
+  color: #092ea8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 3px;
+}
+
+.moon_btn:hover:before,
+.moon_btn:hover:after {
+  height: 100%;
+  width: 100%;
+}
+
+.moon_btn:after {
+  content: "";
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  bottom: -5px;
+  right: -5px;
+  border-bottom: 2px solid #092ea8;
+  border-right: 2px solid #09b19a;
+  transition: all 0.25s;
+}
+
+.moon {
+  font-family: "Yeseva One", cursive;
+}
+
+.card-text-moon {
+  font-family: "Source Sans Pro", sans-serif;
+  color: black;
+}
+/* Moon's CSS Ends */
