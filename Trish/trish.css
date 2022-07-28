@@ -16,13 +16,15 @@ body {
     );
     overflow: hidden;
   }
-
-  .topnav a {
+  .logo {
     float: left;
+  }
+  .topnav a {
+    float: right;
     display: block;
     color: rgb(103, 227, 236);
     text-align: center;
-    padding: 15px 15px;
+    padding: 10px;
     text-decoration:none;
     font-size:25px;
   }
@@ -35,7 +37,8 @@ body {
   
   /* Active page highlighted */
   .topnav a.active {
-    background-color: rgba(77, 8, 122, 0.904);
+    padding: 23px;
+    background-color: rgba(28, 173, 137, 0.904);
     color: white;
   }
   
