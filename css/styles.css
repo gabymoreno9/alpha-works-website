@@ -182,21 +182,16 @@
 /* End of Kendall's CSS */
 
 /*ChrisBreezy CSS */
-.bg-color {
-  background-color: #000000;
-}
-
-.glow::before,
-.glow::after {
-  content: '';
-  position: absolute;
-  left: -2px;
-  right: -2px;
-  background: #e63946;
-  width: 100%;
-  height: 100%;
-  z-index: -1;
-  background-size: 400%;
+.glow::before , .glow::after{
+content: '';
+position: absolute;
+left: -2px;
+right: -2px;
+background:#e63946;
+width: 100%;
+height: 100%;
+z-index: -1;
+background-size: 400%;
 }
 
 .glow::after {
@@ -341,6 +336,13 @@
   background-color: slategray;
 }
 
+
+.em-body {
+  background-color: #4801FF;
+}
+.em-body{
+  background-color: white;
+}
 
 
 
