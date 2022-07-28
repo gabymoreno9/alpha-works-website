@@ -12,7 +12,7 @@ body{
 }
 .mb-nav{
     height: 100px;
-    min-width: calc(100vw - 22px);
+    min-width: calc(100vw - 25px);
     position: fixed;
     display: flex;
     align-items: center;
@@ -21,6 +21,7 @@ body{
 
 .navButtons{
     display: flex;
+    margin-right: 10px;
 }
 
 .navWords{
@@ -1013,13 +1014,46 @@ table{
     opacity: .75;
 }
 
+.projectSummary{
+    font-size: 20px;
+    top: 20px;
+}
+
 .projectIcons{
     position: absolute;
     bottom: 10%;
 }
 
-.project:nth-child(1){
+.projects .linkProject:nth-child(1) .project{
     background-color: rgba(33,168,160,0.9864320728291317);
+}
+
+.projects .linkProject:nth-child(2) .project{
+    background-color: rgba(33, 98, 168, 0.986);
+}
+
+.projects .linkProject:nth-child(3) .project{
+    background-color: rgba(18, 225, 159, 0.986);
+}
+
+.projects .linkProject:nth-child(4) .project{
+    background-color: rgba(228, 78, 14, 0.986);
+}
+
+.projects .linkProject:nth-child(5) .project{
+    background-color: rgba(101, 30, 215, 0.986);
+}
+
+.projects .linkProject:nth-child(6) .project{
+    background-color: rgba(230, 219, 23, 0.986);
+}
+
+.projects .linkProject:nth-child(7) .project{
+    background-color: rgba(19, 23, 223, 0.986);
+}
+
+.projects .linkProject:nth-child(8) .project{
+    background-color: rgba(93, 171, 254, 0.986);
 }
 
 .project:hover{
@@ -1031,5 +1065,56 @@ table{
 }
 
 footer{
-    background-color: blueviolet;
+    background: rgb(0,0,0);
+    background: linear-gradient(180deg, rgba(11, 74, 96, 0.986) 0%, rgba(0, 0, 0) 100%);
+    min-height: 20vh;
+}
+
+footer h1{
+    font-family: 'Rubik Moonrocks', cursive;
+    font-size: 45px;
+    color: white;
+    text-align: center;
+    margin: 0px;
+    padding-top: 10px;
+    margin-bottom: 25px;
+}
+
+.iconLinks{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.iconLinks a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    transition: all .1s;
+    margin: 15px;
+}
+
+.iconLinks a:hover{
+    transform: scale(1.1);
+}
+
+.iconName{
+    margin: 0px;
+}
+
+.scrollTop{
+    display: flex;
+    margin: 5px;
+    justify-content: center;
+    transition: all .1s;
+}
+
+.scrollTop img:hover{
+    transform: scale(1.1);
+}
+
+.footerNote{
+    color: white;
+    font-size: 20px;
+    text-align: center;
 }
