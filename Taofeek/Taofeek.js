@@ -6,18 +6,18 @@ const slideInfo = [
     descImg: "/Taofeek/img/Untitled.svg",
     bodyText: "  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus consequatur nesciunt blanditiis ex? Error quod quis ea maxime neque eveniet? Cumque quia nihil aliquid ratione"
   },
- 
+
 ];
- 
+
 //This code toggles the navBar 
 const toggleNav = document.getElementById('navRemove')
-toggleNav.addEventListener('click', ()=>{
-    let boxDel= document.getElementById('navBoxDel')
-  if(boxDel.style.display==="flex"){
+toggleNav.addEventListener('click', () => {
+  let boxDel = document.getElementById('navBoxDel')
+  if (boxDel.style.display === "flex") {
     boxDel.style.display = "none"
     console.log("Azy")
   }
-  else{
+  else {
     boxDel.style.display = "flex"
   }
 })
@@ -43,7 +43,7 @@ toggleNav.addEventListener('click', ()=>{
   </div>
 </div>
  */
-const loadPageBody = () =>{
+const loadPageBody = () => {
   slideInfo.forEach((item) => {
     const slideItem = document.createElement('div')
     slideItem.className = "z-40 w-25 md:w-4/5 lg:4/5 border-1 flex-col m-auto p-4"
@@ -65,13 +65,56 @@ const loadPageBody = () =>{
     const InnerFlexChild2Text = document.createElement('h3')
     InnerFlexChild2Text.className = "text-white text-xl md:text-3xl lg:text-3xl text-center md:text-justify lg:text-justify"
     InnerFlexChild2Text.innerHTML = `${item.bodyText}`
+    const TriggerBtn = document.createElement('span')
+    TriggerBtn.className = "flex p-3"
+    TriggerBtn.id = "btn"
+    const TriggerBtnChild1 = document.createElement('Button')
+    TriggerBtnChild1.textContent = "MORE"
+    TriggerBtnChild1.id = "tex_t"
+    TriggerBtnChild1.className = "text-sm bg-trans mr-3"
+    const TriggerBtnChild2 = document.createElement('Button')
+    TriggerBtnChild2.innerHTML = "&#9759"
+    TriggerBtnChild2.id = "ico_n"
+    TriggerBtnChild2.className = "text-md bg-trans"
     slideItem.appendChild(InnerFlex)
     InnerFlex.appendChild(InnerFlexChild1)
     InnerFlexChild1.appendChild(InnerFlexChildSvg)
     InnerFlex.appendChild(InnerFlexChild2)
     InnerFlexChild2.appendChild(InnerFlexChild2Text)
+    InnerFlexChild2Text.appendChild(TriggerBtn)
+    TriggerBtn.appendChild(TriggerBtnChild1)
+    TriggerBtn.appendChild(TriggerBtnChild2)
   })
 }
 
 loadPageBody()
 // 
+
+//Add eventlistener to more button
+//If the button is clicked the following happens 1) The word more is changed to less 2) the Icon is turned downwards 3) The footer shows 
+
+document.querySelector('#btn').addEventListener('click', showFooter)
+
+function showFooter() {
+  let _myFooter = document.querySelector('#show_Footer')
+  display = window.getComputedStyle(_myFooter).display
+  if (display === "block") {
+    _myFooter.style.display = "none";
+    document.getElementById('tex_t').innerHTML = "LESS"
+  }
+  else {
+    _myFooter.style.display = "block"
+    document.getElementById('tex_t').innerHTML = "MORE";
+    //keyframes
+    document.getElementById('ico_n').animate([
+      { transform: "rotate(360deg)" }
+    ],
+      {
+        duration: 1000,
+        iterations: Infinity
+      }
+    )
+    // timing options
+
+  }
+}
