@@ -2,3 +2,16 @@ body {
     background-color: rgb(0, 0, 0) !important;
 }
 
+body{
+    background-color: black !important;
+}
+
+.jm-logo{
+  width: 200px;
+  height: 200px;
+  justify-content: space-evenly;
+}
+
+.offcanvas-body{
+  background-color: rgba(0, 0, 0, 0.918);
+}
