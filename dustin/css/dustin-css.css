@@ -1,5 +1,9 @@
+body{
+    margin: 0;
+}
 .dustin-wrap{
     position: relative;
+    overflow: hidden;
 }
 .topcheck{
     position: absolute;

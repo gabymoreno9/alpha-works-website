@@ -1,6 +1,6 @@
-let s = window.screen;
-let width = q.width = s.width;
-let height = q.height = s.height;
+let s = window;
+let width = q.width = s.innerWidth;
+let height = q.height = s.innerHeight;
 let letters = Array(256).join(1).split('');
 
 let draw = function () {
