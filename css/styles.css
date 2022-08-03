@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Source+Sans+Pro:wght@300&family=Yeseva+One&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Source+Sans+Pro:wght@300&family=Yeseva+One&display=swap");
 
 .row {
   margin-bottom: 40px;
@@ -39,7 +39,9 @@
 
 /* ivan css */
 .ivan {
-  background-image: linear-gradient(rgb(11, 204, 21), rgb(255, 255, 255), rgb(255, 0, 0));
+  background-image: linear-gradient(rgb(11, 204, 21),
+      rgb(255, 255, 255),
+      rgb(255, 0, 0));
 }
 
 .ivanbio {
@@ -49,11 +51,9 @@
 
 .ivantext {
   font-size: larger;
-
 }
 
 #bold {
-  
   border-style: groove;
   box-shadow: -1px 5px 33px rgb(0, 0, 0);
 }
@@ -61,7 +61,6 @@
 .card-text-moon {
   color: #a6a6a6;
 }
-
 
 /* Jacky CSS */
 .card-me:hover {
@@ -71,19 +70,16 @@
   animation: rotate 4s infinite ease-in-out;
 }
 
-
 .card-self {
   background-color: rgb(255, 194, 250);
 }
 
 .btn-jacky {
-
   text-decoration: none;
   text-decoration-color: white;
 }
 
 .glow-on-hover {
-
   border: none;
   outline: none;
   color: rgb(0, 0, 0);
@@ -95,8 +91,16 @@
 }
 
 .glow-on-hover:before {
-  content: '';
-  background: linear-gradient(45deg, #ff0000, #ff7300, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+  content: "";
+  background: linear-gradient(45deg,
+      #ff0000,
+      #ff7300,
+      #48ff00,
+      #00ffd5,
+      #002bff,
+      #7a00ff,
+      #ff00c8,
+      #ff0000);
   position: absolute;
   top: -2px;
   left: -2px;
@@ -107,7 +111,7 @@
   height: calc(100% + 4px);
   animation: glowing 20s linear infinite;
   opacity: 0;
-  transition: opacity .3s ease-in-out;
+  transition: opacity 0.3s ease-in-out;
   border-radius: 10px;
   text-decoration: none;
   text-decoration-color: white;
@@ -121,17 +125,15 @@
 .glow-on-hover:active:after {
   background: transparent;
   color: white;
-
 }
 
 .glow-on-hover:hover:before {
   opacity: 1;
-
 }
 
 .glow-on-hover:after {
   z-index: -1;
-  content: '';
+  content: "";
   position: absolute;
   width: 100%;
   height: 100%;
@@ -139,7 +141,6 @@
   left: 0;
   top: 0;
   border-radius: 5px;
-
 }
 
 @keyframes glowing {
@@ -182,16 +183,17 @@
 /* End of Kendall's CSS */
 
 /*ChrisBreezy CSS */
-.glow::before , .glow::after{
-content: '';
-position: absolute;
-left: -2px;
-right: -2px;
-background:#e63946;
-width: 100%;
-height: 100%;
-z-index: -1;
-background-size: 400%;
+.glow::before,
+.glow::after {
+  content: "";
+  position: absolute;
+  left: -2px;
+  right: -2px;
+  background: #e63946;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background-size: 400%;
 }
 
 .glow::after {
@@ -208,15 +210,12 @@ background-size: 400%;
 }
 
 .chris-breezy {
-
-
   background: #e63946;
   text-decoration: none;
   width: 200px;
   height: 38px;
   border-radius: 5px;
   overflow: hidden;
-
 
   position: relative;
 }
@@ -284,8 +283,7 @@ background-size: 400%;
 /* Trish's CSS Begins */
 .trish {
   background-color: red;
-  background-image:
-    linear-gradient(to right,
+  background-image: linear-gradient(to right,
       rgba(226, 12, 208, 0.932),
       #2143afde,
       rgba(77, 8, 122, 0.904),
@@ -307,16 +305,15 @@ background-size: 400%;
 
 .trish-btn:hover {
   color: rgba(10, 243, 224, 0.932);
-  background-color: rgba(7, 25, 180, 0.877)
+  background-color: rgba(7, 25, 180, 0.877);
 }
 
 /* Trish's CSS Ends */
 
-
 /* Eddie's CSS Start */
 
 .em-card {
-  background-color: #4801FF;
+  background-color: #4801ff;
   color: white;
   box-shadow: black 0px 0px 40px;
   border-bottom-left-radius: 20px;
@@ -336,19 +333,15 @@ background-size: 400%;
   background-color: slategray;
 }
 
+.em-body {
+  background-color: #4801ff;
+}
 
 .em-body {
-  background-color: #4801FF;
-}
-.em-body{
   background-color: white;
 }
 
-
-
-
 /* Eddie's CSS End */
-
 
 /* Start Dustin CSS */
 #dustin-cont {
@@ -380,7 +373,6 @@ background-size: 400%;
   right: 0;
   bottom: 0; */
   text-align: center;
-  
 }
 
 #dustin-button:hover {
@@ -390,18 +382,20 @@ background-size: 400%;
   animation-delay: 0;
   animation-play-state: running;
   animation-fill-mode: forwards; */
+  --dustin-hall-grey: rgb(0, 0, 0);
+  --dustin-hall-black: rgba(150, 150, 150, 0.3);
 
-  animation:
-    animateDustinBG 3s ease-in 0s 1 forwards,
-    blackhole 1.5s ease-in-out 0s 1 forwards;
-      
+  animation: animateDustinBG 2s ease-in 0s 1 forwards,
+  blackhole 1s ease-in-out 0s 1 forwards,
+  animateHallway 500ms linear 0s infinite forwards;
+  /* animateHallway 800ms infinite linear; */
 }
-#dustin-button .text{
+
+#dustin-button .text {
   top: 0;
   bottom: 0;
   right: 0;
   left: 0;
-
 }
 
 @keyframes blackhole {
@@ -410,17 +404,20 @@ background-size: 400%;
     height: 38px;
     width: 177.3px;
     font-size: 1rem;
-    
+
     opacity: 1;
   }
-  
+
   50% {
     font-size: 0rem;
     border-radius: 25%;
   }
+
   100% {
     font-size: 0rem;
     border-radius: 50%;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
     height: 75px;
     width: 75px;
     opacity: 1;
@@ -429,48 +426,136 @@ background-size: 400%;
 
 @keyframes animateDustinBG {
   0% {
-    background: radial-gradient(circle, rgb(0, 0, 0) 0%,rgb(0, 0, 0) 2%, rgb(0, 0, 0) 5%, rgb(0, 0, 0) 100%);
-    background-position: 50% 0;
-    background-size: 1%;
+    background: radial-gradient(circle,
+        rgb(0, 0, 0) 0%,
+        rgb(0, 0, 0) 4%,
+        rgb(255, 255, 255) 6%,
+        rgb(100, 100, 100) 30%,
+        rgb(50, 50, 50) 40%,
+        rgb(0, 0, 0) 100%);
+
+    /* //// Gradient pattern for a door, save for implementation */
+    /* background: linear-gradient(90deg,
+    rgb(0, 0, 0) 1%,rgb(85, 45, 20) 2%,rgb(85, 45, 20) 18%,rgb(0, 0, 0) 19%,
+    rgb(0, 0, 0) 20%,rgb(85, 45, 20) 22%,rgb(85, 45, 20) 28%, rgb(0,0,0,) 29%,
+    rgb(0, 0, 0) 30%,rgb(85, 45, 20) 32%,rgb(85, 45, 20) 38%, rgb(0,0,0,) 39%,
+    rgb(0, 0, 0) 40%,rgb(85, 45, 20) 42%,rgb(85, 45, 20) 48%, rgb(0,0,0,) 49%,
+    rgb(0, 0, 0) 50%,rgb(85, 45, 20) 52%,rgb(85, 45, 20) 58%, rgb(0,0,0,) 59%,
+    rgb(0, 0, 0) 60%,rgb(85, 45, 20) 62%,rgb(85, 45, 20) 68%, rgb(0,0,0,) 69%,
+    rgb(0, 0, 0) 70%,rgb(85, 45, 20) 72%,rgb(85, 45, 20) 78%, rgb(0,0,0,) 79%,
+    rgb(0, 0, 0) 80%,rgb(85, 45, 20) 82%,rgb(85, 45, 20) 88%, rgb(0,0,0,) 89%,
+    rgb(0, 0, 0) 90%,rgb(85, 45, 20) 92%,rgb(85, 45, 20) 98%, rgb(0,0,0,) 100% ); */
+
+    /* background-position: 50% 0; */
+    box-shadow: -1px 1px 10px 55px black inset;
   }
-  20%{
-    background-size: 1%;
-    background: radial-gradient(circle, rgb(0, 0, 0) 0%,rgb(255, 255, 255) 2%, rgb(0, 0, 0) 5%, rgb(0, 0, 0) 100%);
-    background-position: 50% 0;
-  }
-  50% {
-    background-position: 50% 0;
-    /* background: radial-gradient(circle, rgb(0, 0, 0) 0%,rgb(255, 255, 255) 2%, rgb(0, 0, 0) 5%, rgb(0, 0, 0) 100%); */
-    background-size: 200%;
-  } 
-  85%{
+
+  85% {
     transform: scaleY(100%);
-    /* background-size: 200%; */
   }
-  86%{
-    /* background-size: 200% ; */
-  } 
-  95%{
-    background: radial-gradient(circle, rgb(0, 0, 0) 0%,rgb(255, 255, 255) 2%, rgb(0, 0, 0) 5%, rgb(0, 0, 0) 100%);
-    background-position: 50% 0;
-    background-size: 2000%;
-    height: 75px;
-    transform: scaleY(1%);
-    /* background-size: 100% 1000%; */
+
+  95% {
+    /* background-position: 50% 0; */
+
+    height: 95px;
   }
-  96%{
-    background: radial-gradient(circle, rgb(0, 0, 0) 5%, rgb(0,0,0)8%, rgb(0,0,205) 9%, rgb(0,0,255) 25%, rgb(255, 255, 255) 26%, rgb(255,255,255)45%, rgb(0, 0, 0) 99%, rgb(0, 0, 0) 100%);
-  }
-  98%{
-    transform: scaleY(100%);
-    
-  }
+
   100% {
-    background: radial-gradient(circle, rgb(0, 0, 0) 5%, rgb(0,0,0)8%, rgb(0,0,205) 9%, rgb(0,0,255) 25%, rgb(255, 255, 255) 26%, rgb(255,255,255)45%, rgb(0, 0, 0) 99%, rgb(0, 0, 0) 100%);
-    background-position: 50% 0;
+    background: radial-gradient(circle,
+        rgb(0, 0, 0) 0%,
+        rgb(0, 0, 0) 4%,
+        rgb(255, 255, 255) 5%,
+        rgb(200, 200, 200) 15%,
+        rgb(100, 100, 100) 30%,
+        rgb(50, 50, 50) 50%,
+        rgb(0, 0, 0) 100%);
+    /* background-position: 50% 0; */
+    background-position-y: 5px;
     background-size: 100%;
-    height: 75px;
+    box-shadow: -1px 1px 10px 8px black inset;
+    /* box-shadow: -1px 1px 5px 35px black inset; */
+    /* height: 75px; */
   }
+}
+
+@keyframes animateHallway {
+  from {
+    box-shadow: inset 0 5px 10px 5px var(--dustin-hall-black),
+      inset 0 0 0 0 var(--dustin-hall-grey), 
+      inset 0 5px 10px 5px var(--dustin-hall-black),
+      inset 0 0 0 20px var(--dustin-hall-grey),
+      inset 0 5px 10px 25px var(--dustin-hall-black),
+      inset 0 0 0 40px var(--dustin-hall-grey),
+      inset 0 5px 10px 45px var(--dustin-hall-black),
+      inset 0 0 0 60px var(--dustin-hall-grey),
+      inset 0 5px 10px 65px var(--dustin-hall-black),
+      inset 0 0 0 80px var(--dustin-hall-grey),
+      inset 0 5px 10px 85px var(--dustin-hall-black),
+      inset 0 0 0 100px var(--dustin-hall-grey),
+      inset 0 5px 10px 105px var(--dustin-hall-black),
+      inset 0 0 0 120px var(--dustin-hall-grey),
+      inset 0 5px 10px 125px var(--dustin-hall-black),
+      inset 0 0 0 140px var(--dustin-hall-grey),
+      inset 0 5px 10px 145px var(--dustin-hall-black),
+      inset 0 0 0 160px var(--dustin-hall-grey);
+  }
+  to {
+    box-shadow: inset 0 5px 10px 5px var(--dustin-hall-black),
+      inset 0 0 0 20px var(--dustin-hall-grey),
+      inset 0 5px 10px 25px var(--dustin-hall-black),
+      inset 0 0 0 40px var(--dustin-hall-grey),
+      inset 0 5px 10px 45px var(--dustin-hall-black),
+      inset 0 0 0 60px var(--dustin-hall-grey),
+      inset 0 5px 10px 65px var(--dustin-hall-black),
+      inset 0 0 0 80px var(--dustin-hall-grey),
+      inset 0 5px 10px 85px var(--dustin-hall-black),
+      inset 0 0 0 100px var(--dustin-hall-grey),
+      inset 0 5px 10px 105px var(--dustin-hall-black),
+      inset 0 0 0 120px var(--dustin-hall-grey),
+      inset 0 5px 10px 125px var(--dustin-hall-black),
+      inset 0 0 0 140px var(--dustin-hall-grey),
+      inset 0 5px 10px 145px var(--dustin-hall-black),
+      inset 0 0 0 160px var(--dustin-hall-grey),
+      inset 0 5px 10px 165px var(--dustin-hall-black),
+      inset 0 0 0 180px var(--dustin-hall-grey);
+  }
+}
+
+#buttonDoor {
+  /* height: 300px;
+  width: 300px;
+  background-color: #a1a1a1;
+  box-shadow: inset 0 5px 10px 5px rgba(0, 0, 0, 0.3),
+      inset 0 0 0 0 rgb(100, 100, 100), 
+      inset 0 5px 10px 5px rgba(0, 0, 0, 0.3),
+      inset 0 0 0 20px rgb(100, 100, 100),
+      inset 0 5px 10px 25px rgba(0, 0, 0, 0.3),
+      inset 0 0 0 40px rgb(100, 100, 100),
+      inset 0 5px 10px 45px rgba(0, 0, 0, 0.3),
+      inset 0 0 0 60px rgb(100, 100, 100),
+      inset 0 5px 10px 65px rgba(0, 0, 0, 0.3),
+      inset 0 0 0 80px rgb(100, 100, 100),
+      inset 0 5px 10px 85px rgba(0, 0, 0, 0.3),
+      inset 0 0 0 100px rgb(100, 100, 100),
+      inset 0 5px 10px 105px rgba(0, 0, 0, 0.3),
+      inset 0 0 0 120px rgb(100, 100, 100),
+      inset 0 5px 10px 125px rgba(0, 0, 0, 0.3),
+      inset 0 0 0 140px rgb(100, 100, 100),
+      inset 0 5px 10px 145px rgba(0, 0, 0, 0.3),
+      inset 0 0 0 160px rgb(100, 100, 100); */
+  /* position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+
+  background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(85, 45, 20, 1) 2%, rgba(85, 45, 20, 1) 23%, rgba(0, 0, 0, 1) 25%, rgba(85, 45, 20, 1) 27%, rgba(85, 45, 20, 1) 48%, rgba(0, 0, 0, 1) 50%, rgba(85, 45, 20, 1) 52%, rgba(85, 45, 20, 1) 73%, rgba(0, 0, 0, 1) 75%, rgba(85, 45, 20, 1) 77%, rgba(85, 45, 20, 1) 99%, rgba(0, 0, 0, 1) 100%);
+
+  z-index: 5;
+  height: fit-content;
+  width: fit-content; */
+  /* animation: animateHallway 1s ease-in-out 0s 1 forwards; */
+  /* animation: animateHallway 800ms ease-in 1s infinite forwards; */
 }
 
 #dustin-cont .card-text {
@@ -487,7 +572,7 @@ background-size: 400%;
   background-image: url("/dustin/img/circuit-board-technology-background-vector-13208246.jpg");
   background-size: 100%;
   background-repeat: no-repeat;
-  opacity: .5;
+  opacity: 0.5;
 }
 
 #dustin-cont .card-body-bg {
@@ -516,8 +601,7 @@ background-size: 400%;
 /*Sonic's CSS Begins*/
 .sonic {
   background-color: red;
-  background-image:
-    linear-gradient(to left,
+  background-image: linear-gradient(to left,
       rgba(19, 172, 26, 0.829),
       #a11a1ad0,
       rgba(11, 21, 170, 0.836));
@@ -538,29 +622,33 @@ background-size: 400%;
   color: rgb(240, 233, 233);
   background-color: #0886cfc9;
 }
+
 /*Sonic's CSS Ends*/
 
 /* Taofeek's CSS */
 #TCard_body {
-  background: #5A3F37;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #2C7744, #5A3F37);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #2C7744, #5A3F37); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+  background: #5a3f37;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #2c7744, #5a3f37);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #2c7744, #5a3f37);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
-#T_Btn{
+
+#T_Btn {
   background-color: #000000;
   color: white;
   box-shadow: 0px 0px 7px 4px white;
 }
 
-
-#T_Btn:active{
- background-color: #00ffd533;
-}
-
-#T_mail:active{
+#T_Btn:active {
   background-color: #00ffd533;
 }
+
+#T_mail:active {
+  background-color: #00ffd533;
+}
+
 #T_mail {
   background-color: #555857;
   box-shadow: 0px 0px 4px 4px white;
@@ -572,8 +660,10 @@ background: linear-gradient(to right, #2C7744, #5A3F37); /* W3C, IE 10+/ Edge, F
 .moon_btn {
   border: none;
   padding: 5px;
-  background: rgb(9,46,168);
-  background: linear-gradient(90deg, rgba(9,46,168,1) 0%, rgba(9,177,154,1) 100%); 
+  background: rgb(9, 46, 168);
+  background: linear-gradient(90deg,
+      rgba(9, 46, 168, 1) 0%,
+      rgba(9, 177, 154, 1) 100%);
   color: white;
   font-family: "Yeseva One", cursive;
   font-size: 1em;
@@ -628,4 +718,5 @@ background: linear-gradient(to right, #2C7744, #5A3F37); /* W3C, IE 10+/ Edge, F
   font-family: "Source Sans Pro", sans-serif;
   color: black;
 }
+
 /* Moon's CSS Ends */
