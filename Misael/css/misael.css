@@ -8,15 +8,14 @@ body{
 }
 
 .mb-nav{
-    margin: 8px;
-}
-.mb-nav{
     height: 100px;
     min-width: calc(100vw - 25px);
+    margin: 8px;
     position: fixed;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    z-index: 1;
 }
 
 .navButtons{
