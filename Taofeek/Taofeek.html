@@ -11,7 +11,7 @@
       href="https://fonts.googleapis.com/css2?family=Finlandica&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="/Taofeek/Taofeek.css">
+    <link rel="stylesheet" href="/Taofeek/Taofeek.css" />
     <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
     <script>
       tailwind.config = {
@@ -152,10 +152,47 @@
 
     <!-- This is the body of my page -->
 
-    <div id="body_wrapper"></div>
+    <div id="body_wrapper">
 
+      
+    </div>
+    <div class="z-40 w-auto border-1 flex-col w-25 md:w-1/5 lg:4/5  mx-auto mt-0">
+      <span class="flex" id="btn">
+        <button class="text-sm bg-trans mr-3 text-white" id="tex_t">MORE</button>
+        <button class="text-xl bg-trans text-white p-2" id="ico_n">&#9759</button>
+        </span>
+    </div>
+    <!-- This is the tracker section -->
+    <span class="flex justify-between w-full overflow-hidden">
+      <div class="h-3 inline-block">
+        <div class="w-8 h-full bg-gold">
+        </div> 
+      </div>
+
+      <div class="text-white inline-block mx-2"> huhbb</div>
+      <div class="h-3 inline-block mb-0">
+        <div class="w-8 h-full bg-gold">
+        </div> 
+      </div>
+      <div class="text-white inline-block mx-2" id="date_"></div>
+      <div class="h-3 relative inline-block grow">
+        <div class="w-100 h-full bg-gold">
+          <div id="bar" class="h-full bg-green relative"></div>
+        </div>
+      </div>
+      <div class="text-white inline-block mx-2"> huhbbbbbb</div>
+      <div class="h-3  inline-block">
+        <div class="w-12 h-full bg-gold">
+        </div> 
+      </div>
+    </span>
+ 
+    
+    <!-- The tracker ends here  -->
+
+    <!-- On the small screen, set an event on the footer that it disappear -->
     <footer
-      class="fixed left-0 right-0 bottom-0 max-h-96 w-100 bg-green z-50"
+      class="fixed left-0 right-0 bottom-0 h-auto w-100 bg-green z-50"
       id="show_Footer"
     >
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus
@@ -169,6 +206,6 @@
       cupiditate, ea dolorem vitae dolores in ipsum est unde quam ratione!
       Quaerat nostrum perferendis praesentium quia ex? Ipsam nemo id aspernatur!
       Consectetur recusandae quam cum quibusdam?
-  </footer>
+    </footer>
   </body>
 </html>
