@@ -43,7 +43,20 @@
       rgb(255, 255, 255),
       rgb(255, 0, 0));
 }
-
+.btn-ivan{
+  background: linear-gradient(#5c65c7, #07394b, #000000);
+    box-shadow: 3px 4px rgba(0, 0, 0, 0.622);
+    border: 3px outset rgba(255, 255, 255, 0.884);
+  animation: transition;
+    transition: 5s;
+    font: message-box;
+    color: rgb(255, 255, 255);
+}
+.btn-ivan:hover{
+  opacity: 0;
+  cursor: cell;
+  background: linear-gradient(to left, #5c65c7, #07394b, #000000);
+}
 .ivanbio {
   font-weight: 600;
   letter-spacing: 2.5px;
@@ -52,7 +65,7 @@
 .ivantext {
   font-size: larger;
 }
-
+/* Ivans CSS end */
 #bold {
   border-style: groove;
   box-shadow: -1px 5px 33px rgb(0, 0, 0);
