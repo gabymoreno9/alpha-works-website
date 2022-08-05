@@ -5,23 +5,43 @@ background: linear-gradient(90deg, hsla(230, 59%, 25%, 1) 0%, hsla(359, 73%, 39%
 background: -moz-linear-gradient(90deg, hsla(230, 59%, 25%, 1) 0%, hsla(359, 73%, 39%, 1) 50%, hsla(32, 97%, 59%, 1) 100%);
 background: -webkit-linear-gradient(90deg, hsla(230, 59%, 25%, 1) 0%, hsla(359, 73%, 39%, 1) 50%, hsla(32, 97%, 59%, 1) 100%);
 filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#1A2766", endColorstr="#AE1B1E", GradientType=1 );
+
 }
 
 .big-logo{
     position: absolute;
     top: 0;
-   
+}
+
+@media all and (max-device-width: 700px) {
+    #logo{
+        width: 10rem;
+    }
 }
 /* Nav bar Css  */
-nav{
-}
 #nav-ol{
     display: flex;
     justify-content: right;
-    
 }
 .nav-li{
     padding-right:3rem;
+}
+.nav-li:hover{
+    text-decoration: underline;
+}
+@media all and (max-device-width: 700px){
+    #nav-ol{
+        flex-direction: column;
+        align-items: flex-end; 
+        margin-left: 100%;      
+}}
+
+/*  about me description and img */
+.about-me-description{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
 }
 
 /* Social media Links */
@@ -29,23 +49,18 @@ nav{
     list-style-type: none;
     z-index: 100;
     position: fixed;
-    margin-top: 70vh;
-    
+    margin-top: 55vh;
+    margin-left: 0%;  
 }
 .fa-brands, .fa-solid {
     color: rgb(245, 245, 245);
-    font-size: 1.5em;
+    font-size: 1.1em;
     padding-bottom: 15px;
   }
-/* about me section */
-#about{
-    display: flex;
-    justify-content: center;
-}
 
 /* Skills CSS */
 .skills-container{
-    margin-top: 15rem;
+    margin-top: 5rem;
 }
 .skills-ul{
     display: flex;
@@ -55,7 +70,8 @@ nav{
 
 /* Footer cSS */
 .foot{
-    margin-top: 100%
+    margin-top: 100%;
+    height: 15vh;
 }
 .foot-description{
     display: flex;
