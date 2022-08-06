@@ -8,15 +8,14 @@ body{
 }
 
 .mb-nav{
-    margin: 8px;
-}
-.mb-nav{
     height: 100px;
     min-width: calc(100vw - 25px);
+    margin: 8px;
     position: fixed;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    z-index: 1;
 }
 
 .navButtons{
@@ -978,9 +977,8 @@ table{
 }
 
 .project{
-    background-color: white;
     width: 300px;
-    height: 300px;
+    height: 400px;
     margin: 10px;
     display: flex;
     justify-content: center;
@@ -990,33 +988,28 @@ table{
     transition: all .1s;
     position: relative;
     overflow: hidden;
+    box-shadow: 3px 4px 10px black;
 }
 
-
-.project h1{
-    position: relative;
-    transition: all .1s;
-}
-
-.project h2{
+.headerName{
     position: absolute;
-    transition: all .1s;
-}
-
-.projectImg{
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
+    top: 0px;
     width: 100%;
-    height: 100%;
-    opacity: .75;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
+.projectName{
+    transition: all .1s;
+    margin: 0px;
+}
 .projectSummary{
     font-size: 20px;
-    top: 20px;
+    top: 100px;
+    position: absolute;
+    transition: all .1s;
 }
 
 .projectIcons{
@@ -1025,43 +1018,39 @@ table{
 }
 
 .projects .linkProject:nth-child(1) .project{
-    background-color: rgba(33,168,160,0.9864320728291317);
+    background: linear-gradient(0deg, rgba(33,168,160,0.9864320728291317) 75%, rgba(11, 74, 96, 0.986) 75%);
 }
 
 .projects .linkProject:nth-child(2) .project{
-    background-color: rgba(33, 98, 168, 0.986);
+    background: linear-gradient(0deg, rgba(33,168,160,0.9864320728291317) 75%, rgba(11, 74, 96, 0.986) 75%);
 }
 
 .projects .linkProject:nth-child(3) .project{
-    background-color: rgba(18, 225, 159, 0.986);
+    background: linear-gradient(0deg, rgba(33,168,160,0.9864320728291317) 75%, rgba(11, 74, 96, 0.986) 75%);
 }
 
 .projects .linkProject:nth-child(4) .project{
-    background-color: rgba(228, 78, 14, 0.986);
+    background: linear-gradient(0deg, rgba(33,168,160,0.9864320728291317) 75%, rgba(11, 74, 96, 0.986) 75%);
 }
 
 .projects .linkProject:nth-child(5) .project{
-    background-color: rgba(101, 30, 215, 0.986);
+    background: linear-gradient(0deg, rgba(33,168,160,0.9864320728291317) 75%, rgba(11, 74, 96, 0.986) 75%);
 }
 
 .projects .linkProject:nth-child(6) .project{
-    background-color: rgba(230, 219, 23, 0.986);
+    background: linear-gradient(0deg, rgba(33,168,160,0.9864320728291317) 75%, rgba(11, 74, 96, 0.986) 75%);
 }
 
 .projects .linkProject:nth-child(7) .project{
-    background-color: rgba(19, 23, 223, 0.986);
+    background: linear-gradient(0deg, rgba(33,168,160,0.9864320728291317) 75%, rgba(11, 74, 96, 0.986) 75%);
 }
 
 .projects .linkProject:nth-child(8) .project{
-    background-color: rgba(93, 171, 254, 0.986);
+    background: linear-gradient(0deg, rgba(33,168,160,0.9864320728291317) 75%, rgba(11, 74, 96, 0.986) 75%);
 }
 
 .project:hover{
     transform: scale(1.1);
-}
-
-.hidden{
-    opacity: 0;
 }
 
 footer{
