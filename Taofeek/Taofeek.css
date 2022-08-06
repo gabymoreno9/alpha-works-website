@@ -2,3 +2,51 @@
     display: block;
 } */
 
+#show_Footer {
+  max-height: 290px;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue",
+    Arial, Helvetica, sans-serif;
+  font-weight: 100;
+  transition: bottom 0.5s ease-in-out, opacity 0.5s ease-in-out;
+  box-shadow: 0 -3px 5px rgba(0, 0, 0, 0.2);
+  line-height: 150%;
+}
+.foot_img {
+  position: absolute;
+  top: -15%;
+  left: 43.5%;
+  margin: 0;
+  font-size: 18px;
+}
+
+.foot_side_1 {
+  float: left;
+  width: 325px;
+}
+
+.foot_side_2 {
+  float: right;
+  width: 325px;
+}
+#_wrapper {
+  width: 960px;
+  margin: 0 auto;
+}
+@media screen and (max-device-width: 768px) {
+  #_wrapper {
+    width: auto;
+  }
+  .foot_img {
+    position: relative;
+    top: auto;
+    margin: -40px 0 0 -44px !important;
+    width: 125px;
+    display: block;
+  }
+  .foot_side_1, .foot_side_1{
+    float: none;
+    width: auto !important;
+  }
+
+}
+
